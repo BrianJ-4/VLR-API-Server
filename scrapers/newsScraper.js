@@ -41,4 +41,8 @@ async function getArticles(page) {
     }
 }
 
-module.exports = {getArticles};
+async function getArticleByID(articleID) {
+    
+}
+
+module.exports = {getArticles, getArticleByID};
