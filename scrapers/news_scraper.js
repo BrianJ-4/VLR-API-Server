@@ -1,11 +1,13 @@
 const parser = require("node-html-parser");
-const axios = require("axios");
+
+const {getPage} = require("../utils/get_page");
 
 async function getArticles(page) {
     const articles = [];
+    const url = `https://vlr.gg/news/?page=${page}`;
     try {
-        // Access page
-        const response = await axios.get(`https://vlr.gg/news/?page=${page}`);
+        // Access page and get HTML
+        const response = await getPage(url);
         const doc = parser.parse(response.data);
 
         // Get articles in page
