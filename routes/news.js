@@ -2,7 +2,7 @@ const parser = require("node-html-parser");
 const axios = require("axios");
 const express = require("express");
 
-const {getArticles, getArticleByID} = require("../scrapers/newsScraper");
+const {getArticles, getArticleByID} = require("../scrapers/news_scraper");
 
 const router = express.Router();
 
