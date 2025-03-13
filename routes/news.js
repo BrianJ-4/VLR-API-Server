@@ -1,6 +1,6 @@
 const express = require("express");
 
-const {getArticles, getArticleByID} = require("../scrapers/news_scraper");
+const { getArticles, getArticleByID } = require("../scrapers/news_scraper");
 
 const router = express.Router();
 
@@ -10,9 +10,9 @@ router.get("/:page", async (req, res) => {
     try {
         const articles = await getArticles(page);
         res.status(200).json(articles);
-    } 
+    }
     catch (error) {
-        res.status(500).json({ error: "Failed to get articles"});
+        res.status(500).json({ error: "Failed to get articles" });
     }
 });
 
@@ -22,9 +22,9 @@ router.get("/article/:articleID", async (req, res) => {
     try {
         const article = await getArticleByID(articleID);
         res.status(200).json(article);
-    } 
+    }
     catch (error) {
-        res.status(500).json({ error: "Failed to get article"});
+        res.status(500).json({ error: "Failed to get article" });
     }
 });
 
