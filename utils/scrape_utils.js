@@ -5,4 +5,8 @@ async function getPage(url) {
     return response;
 }
 
-module.exports = {getPage};
+function getText(element) {
+    return element.text.trim();
+}
+
+module.exports = { getPage, getText };
