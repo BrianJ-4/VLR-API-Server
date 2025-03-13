@@ -3,8 +3,10 @@ const app = express ();
 app.use(express.json());
 
 const newsRoutes = require("./routes/news");
+const matchesRoutes = require("./routes/matches");
 
 app.use("/news", newsRoutes);
+app.use("/matches", matchesRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
