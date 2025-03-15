@@ -20,7 +20,7 @@ function getMainHeaderData(mainHeader) {
     matchInfo.Time = getText(dateSection.children[1]);
 
     // Match and teams information *****************************************************************
-    // Collects: Team Names, Team Scores, Match Status, Best of, Team Images, Picks and Bans
+    // Collects: Team Names, Team Scores, Match Status, Best of, Team Images
     const matchAndTeamInformationSection = mainHeader.querySelector("div.match-header-vs");
 
     // Team Names and Images
@@ -46,6 +46,7 @@ function getMainHeaderData(mainHeader) {
     matchInfo.BestOf = Number(bestOf.charAt(bestOf.length - 1));
 
     // Picks and Bans ******************************************************************************
+    // Collects Picks and Bans
     const picksAndBansSection = mainHeader.querySelector("div.match-header-note");
     if (picksAndBansSection)
         matchInfo.PicksAndBans = getText(picksAndBansSection).split(";").map((element) => element.trim()) // Clean extra spaces
@@ -53,4 +54,35 @@ function getMainHeaderData(mainHeader) {
     return matchInfo;
 }
 
-module.exports = { getMainHeaderData };
+function getStreamsAndVods(videosSection) {
+    let videos = {};
+    // Streams ************************************************************
+    const streamsContainer = videosSection.querySelector("div.match-streams-container");
+    const streams = {};
+    streamsContainer.children.forEach(stream => {
+        const streamName = getText(stream);
+        if (!streamName.includes("More Streams")) {
+            const elementTag = stream.tagName;
+            streams[streamName] = elementTag == "DIV" ? stream.querySelector("a").attributes.href : stream.attributes.href;
+        }
+    });
+
+    // Vods ************************************************************
+    const vodsContainer = videosSection.querySelectorAll("div.match-streams-container")[1];
+    const vods = {};
+    vodsContainer.children.forEach(vod => {
+        if (vod.tagName == "A") {
+            vods[getText(vod)] = vod.attributes.href;
+        }
+    });
+
+    // Add only if there are streams/vods
+    if (Object.keys(streams).length != 0)
+        videos.Streams = streams;
+    if (Object.keys(vods).length != 0)
+        videos.Vods = vods
+
+    return videos
+}
+
+module.exports = { getMainHeaderData, getStreamsAndVods };
