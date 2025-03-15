@@ -1,5 +1,3 @@
-const parser = require("node-html-parser");
-
 const { getPage, getText } = require("../utils/scrape_utils");
 const { getMainHeaderData, getStreamsAndVods } = require("../utils/matches_utils");
 
@@ -21,8 +19,7 @@ async function getMatchInformation(matchID) {
     matchStats = {}
     try {
         // Access page and get HTML
-        const response = await getPage(url);
-        const doc = parser.parse(response.data);
+        const doc = await getPage(url);
 
         // Get Information From Helpers
         matchStats.MatchDetails = getMainHeaderData(doc.querySelector("div.wf-card.match-header"));

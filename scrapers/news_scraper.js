@@ -1,18 +1,14 @@
-const parser = require("node-html-parser");
-
 const { getPage, getText } = require("../utils/scrape_utils");
 
 async function getArticles(page) {
     const url = `https://vlr.gg/news/?page=${page}`;
     try {
         // Access page and get HTML
-        const response = await getPage(url);
-        const doc = parser.parse(response.data);
+        const doc = await getPage(url);
 
         // Get articles in page
         const news = doc.querySelector("div.wf-card");
         const articleElements = news.querySelectorAll("a");
-
         const articles = [];
         // Create article object for all articles
         articleElements.forEach((article) => {
@@ -47,8 +43,7 @@ async function getArticleByID(articleID) {
     const url = `https://vlr.gg/${articleID}`;
     try {
         // Access page and get HTML
-        const response = await getPage(url);
-        const doc = parser.parse(response.data);
+        const doc = await getPage(url);
 
         // Get title and author
         const article = doc.querySelector("div.wf-card.mod-article");
