@@ -1,6 +1,6 @@
 const express = require("express");
 
-const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchStats } = require("../scrapers/matches_scraper");
+const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches_scraper");
 
 const router = express.Router();
 
@@ -30,7 +30,7 @@ router.get("/completed", async (req, res) => {
 router.get("/:matchID", async (req, res) => {
     const matchID = parseInt(req.params.matchID);
     try {
-        const matchData = await getMatchStats(matchID);
+        const matchData = await getMatchInformation(matchID);
         res.status(200).json(matchData);
     }
     catch (error) {
