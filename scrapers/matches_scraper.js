@@ -1,5 +1,5 @@
 const { getPage, getText } = require("../utils/scrape_utils");
-const { getMainHeaderData, getStreamsAndVods } = require("../utils/matches_utils");
+const { getMainHeaderData, getStreamsAndVods, getStats } = require("../utils/matches_utils");
 
 async function getUpcomingAndLiveMatches() {
     const toReturn = {
@@ -16,16 +16,16 @@ async function getCompletedMatches() {
 
 async function getMatchInformation(matchID) {
     const url = `https://vlr.gg/${matchID}`;
-    matchStats = {}
+    matchInformation = {}
     try {
         // Access page and get HTML
         const doc = await getPage(url);
 
         // Get Information From Helpers
-        matchStats.MatchDetails = getMainHeaderData(doc.querySelector("div.wf-card.match-header"));
-        matchStats.Videos = getStreamsAndVods(doc.querySelector("div.match-streams-bets-container"));
-        
-        return matchStats;
+        matchInformation.MatchDetails = getMainHeaderData(doc.querySelector("div.wf-card.match-header"));
+        matchInformation.Videos = getStreamsAndVods(doc.querySelector("div.match-streams-bets-container"));
+        matchInformation.Stats = getStats(doc.querySelector("div.vm-stats-container"), matchInformation.MatchDetails.Status);
+        return matchInformation;
     }
     catch (error) {
         console.log("Error: " + error);
