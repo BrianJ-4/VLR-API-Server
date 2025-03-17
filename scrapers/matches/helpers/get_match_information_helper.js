@@ -1,6 +1,6 @@
 const parser = require("node-html-parser");
 
-const { getText } = require("../utils/scrape_utils");
+const { getText } = require("../../../utils/scrape_utils");
 
 function getMainHeaderData(mainHeader) {
     let matchInfo = {};
@@ -85,4 +85,11 @@ function getStreamsAndVods(videosSection) {
     return videos
 }
 
-module.exports = { getMainHeaderData, getStreamsAndVods };
+function getStats(statsSection, matchStatus) {
+    let stats = {};
+    if (matchStatus == "final" || matchStatus == "live") {
+        statsContainer = statsSection.querySelectorAll("div.vm-stats-game");
+    }
+}
+
+module.exports = { getMainHeaderData, getStreamsAndVods, getStats };

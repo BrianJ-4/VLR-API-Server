@@ -1,6 +1,6 @@
 const express = require("express");
 
-const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches_scraper");
+const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches/matches_scraper");
 
 const router = express.Router();
 

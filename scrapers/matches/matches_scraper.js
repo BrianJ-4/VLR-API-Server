@@ -1,5 +1,5 @@
-const { getPage, getText } = require("../utils/scrape_utils");
-const { getMainHeaderData, getStreamsAndVods, getStats } = require("../utils/matches_utils");
+const { getPage } = require("../../utils/scrape_utils");
+const { getMainHeaderData, getStreamsAndVods, getStats } = require("../matches/helpers/get_match_information_helper");
 
 async function getUpcomingAndLiveMatches() {
     const toReturn = {
@@ -16,7 +16,7 @@ async function getCompletedMatches() {
 
 async function getMatchInformation(matchID) {
     const url = `https://vlr.gg/${matchID}`;
-    matchInformation = {}
+    let matchInformation = {}
     try {
         // Access page and get HTML
         const doc = await getPage(url);
