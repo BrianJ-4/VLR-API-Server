@@ -1,6 +1,6 @@
 const express = require("express");
 
-const { getArticles, getArticleByID } = require("../scrapers/news_scraper");
+const { getArticles, getArticleByID } = require("../scrapers/news/news_scraper");
 
 const router = express.Router();
 

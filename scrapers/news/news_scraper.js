@@ -1,4 +1,4 @@
-const { getPage, getText } = require("../utils/scrape_utils");
+const { getPage, getText } = require("../../utils/scrape_utils");
 
 async function getArticles(page) {
     const url = `https://vlr.gg/news/?page=${page}`;
