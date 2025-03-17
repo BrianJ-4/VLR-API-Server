@@ -30,8 +30,8 @@ router.get("/completed", async (req, res) => {
 router.get("/:matchID", async (req, res) => {
     const matchID = parseInt(req.params.matchID);
     try {
-        const matchData = await getMatchInformation(matchID);
-        res.status(200).json(matchData);
+        const matchInformation = await getMatchInformation(matchID);
+        res.status(200).json(matchInformation);
     }
     catch (error) {
         res.status(500).json({ error: "Failed to get match data" });
