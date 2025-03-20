@@ -108,7 +108,7 @@ function getPlayerStatsByMap(matchMapStatsContainers, teamAName, teamBName) {
         let mapDetails = {};
         if (map.attributes["data-game-id"] != "all") {
             mapName = getText(map.querySelector("div.map")).split("\t")[0];
-            if (mapName != "TBD") { 
+            if (mapName != "TBD") {
                 mapDetails.roundsA = getText(map.querySelectorAll("div.score")[0]);
                 mapDetails.roundsB = getText(map.querySelectorAll("div.score")[1]);
                 // Only get details if map has been started in live match
@@ -144,23 +144,24 @@ function getPlayerStatsByMap(matchMapStatsContainers, teamAName, teamBName) {
 function getTeamPlayerStats(tableRows) {
     let teamStats = {};
     tableRows.forEach(player => {
-        let playerStats = {};
         const stats = player.querySelectorAll("td");
         const playerName = getText(player.querySelector("div.text-of"));
-        
-        playerStats.Agent = player.querySelector("img").attributes["alt"];
-        playerStats.Rating = getStatValue(stats[2]);
-        playerStats.ACS = getStatValue(stats[3]);
-        playerStats.Kills = getStatValue(stats[4]);
-        playerStats.Deaths = getStatValue(stats[5]);
-        playerStats.Assists = getStatValue(stats[6]);
-        playerStats.KdDiff = getStatValue(stats[7]);
-        playerStats.KAST = getStatValue(stats[8]);
-        playerStats.ADR = getStatValue(stats[9]);
-        playerStats.HeadshotPercent = getStatValue(stats[10]);
-        playerStats.FirstKills = getStatValue(stats[11]);
-        playerStats.FirstDeaths = getStatValue(stats[12]);
-        playerStats.FkDiff = getStatValue(stats[13]);
+
+        let playerStats = {
+            Agent: player.querySelector("img").attributes["alt"],
+            Rating: getStatValue(stats[2]),
+            ACS: getStatValue(stats[3]),
+            Kills: getStatValue(stats[4]),
+            Deaths: getStatValue(stats[5]),
+            Assists: getStatValue(stats[6]),
+            KdDiff: getStatValue(stats[7]),
+            KAST: getStatValue(stats[8]),
+            ADR: getStatValue(stats[9]),
+            HeadshotPercent: getStatValue(stats[10]),
+            FirstKills: getStatValue(stats[11]),
+            FirstDeaths: getStatValue(stats[12]),
+            FkDiff: getStatValue(stats[13])
+        };
 
         teamStats[playerName] = playerStats;
     });
