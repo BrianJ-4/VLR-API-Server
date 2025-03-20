@@ -24,7 +24,7 @@ async function getMatchInformation(matchID) {
         // Get Information From Helpers
         matchInformation.MatchDetails = getMainHeaderData(doc.querySelector("div.wf-card.match-header"));
         matchInformation.Videos = getStreamsAndVods(doc.querySelector("div.match-streams-bets-container"));
-        matchInformation.Stats = getStats(doc.querySelector("div.vm-stats-container"), matchInformation.MatchDetails.Status);
+        matchInformation.Stats = getStats(doc.querySelector("div.vm-stats-container"), matchInformation.MatchDetails.Status, matchInformation.MatchDetails.TeamA, matchInformation.MatchDetails.TeamB);
         return matchInformation;
     }
     catch (error) {

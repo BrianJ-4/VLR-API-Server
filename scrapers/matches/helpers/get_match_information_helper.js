@@ -85,11 +85,91 @@ function getStreamsAndVods(videosSection) {
     return videos
 }
 
-function getStats(statsSection, matchStatus) {
+function getStats(statsSection, matchStatus, teamAName, teamBName) {
     let stats = {};
     if (matchStatus == "final" || matchStatus == "live") {
-        statsContainer = statsSection.querySelectorAll("div.vm-stats-game");
+        const matchMapStatsContainers = statsSection.querySelectorAll("div.vm-stats-game");
+        stats = getPlayerStatsByMap(matchMapStatsContainers, teamAName, teamBName);
     }
+
+    if (matchStatus == "final") {
+        // get economy stats here
+        // stats.Economy = getEconomyStats
+    }
+
+    return stats;
+}
+
+function getPlayerStatsByMap(matchMapStatsContainers, teamAName, teamBName) {
+    let matchStats = {};
+    let tbdCounter = 0;
+    matchMapStatsContainers.forEach(map => {
+        let mapName = "";
+        let mapDetails = {};
+        if (map.attributes["data-game-id"] != "all") {
+            mapName = getText(map.querySelector("div.map")).split("\t")[0];
+            if (mapName != "TBD") { 
+                mapDetails.roundsA = getText(map.querySelectorAll("div.score")[0]);
+                mapDetails.roundsB = getText(map.querySelectorAll("div.score")[1]);
+                // Only get details if map has been started in live match
+                if (mapDetails.roundsA != 0 && mapDetails.roundsB != 0) {
+                    mapDetails.tRoundsA = getText(map.querySelectorAll("span.mod-t")[0]);
+                    mapDetails.tRoundsB = getText(map.querySelectorAll("span.mod-t")[1]);
+                    mapDetails.ctRoundsA = getText(map.querySelectorAll("span.mod-ct")[0]);
+                    mapDetails.ctRoundsB = getText(map.querySelectorAll("span.mod-ct")[1]);
+                }
+                else {
+                    mapDetails = "None";
+                    return;
+                }
+            }
+            else {
+                matchStats[`TBD ${String(tbdCounter)}`] = "None";
+                tbdCounter += 1;
+                return;
+            }
+        }
+        else {
+            mapName = "All";
+        }
+        const playerTables = map.querySelectorAll("tbody");
+        mapDetails[teamAName] = getTeamPlayerStats(playerTables[0].querySelectorAll("tr"));
+        mapDetails[teamBName] = getTeamPlayerStats(playerTables[1].querySelectorAll("tr"));
+
+        matchStats[mapName] = mapDetails;
+    });
+    return matchStats;
+}
+
+function getTeamPlayerStats(tableRows) {
+    let teamStats = {};
+    tableRows.forEach(player => {
+        let playerStats = {};
+        const stats = player.querySelectorAll("td");
+        const playerName = getText(player.querySelector("div.text-of"));
+        
+        playerStats.Agent = player.querySelector("img").attributes["alt"];
+        playerStats.Rating = getStatValue(stats[2]);
+        playerStats.ACS = getStatValue(stats[3]);
+        playerStats.Kills = getStatValue(stats[4]);
+        playerStats.Deaths = getStatValue(stats[5]);
+        playerStats.Assists = getStatValue(stats[6]);
+        playerStats.KdDiff = getStatValue(stats[7]);
+        playerStats.KAST = getStatValue(stats[8]);
+        playerStats.ADR = getStatValue(stats[9]);
+        playerStats.HeadshotPercent = getStatValue(stats[10]);
+        playerStats.FirstKills = getStatValue(stats[11]);
+        playerStats.FirstDeaths = getStatValue(stats[12]);
+        playerStats.FkDiff = getStatValue(stats[13]);
+
+        teamStats[playerName] = playerStats;
+    });
+    return teamStats;
+}
+
+// Helps to remove repetitive code
+function getStatValue(stat) {
+    return getText(stat.querySelector("span.mod-both"));
 }
 
 module.exports = { getMainHeaderData, getStreamsAndVods, getStats };
