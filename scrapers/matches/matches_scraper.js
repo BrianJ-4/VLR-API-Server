@@ -1,7 +1,7 @@
 const { getPage } = require("../../utils/scrape_utils");
 const { getMainHeaderData, getStreamsAndVods, getStats } = require("../matches/helpers/get_match_information_helper");
 
-async function getUpcomingAndLiveMatches() {
+async function getUpcomingAndLiveMatches(page) {
     const toReturn = {
         function: "getUpcomingAndLiveMatches"
     };

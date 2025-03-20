@@ -5,9 +5,10 @@ const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = 
 const router = express.Router();
 
 // Get list of upcoming and live matches
-router.get("/upcomingLive", async (req, res) => {
+router.get("/upcomingLive/:page", async (req, res) => {
+    const page = parseInt(req.params.page) || 1;
     try {
-        const matches = await getUpcomingAndLiveMatches();
+        const matches = await getUpcomingAndLiveMatches(page);
         res.status(200).json(matches);
     }
     catch (error) {
