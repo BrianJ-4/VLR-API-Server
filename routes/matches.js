@@ -17,9 +17,10 @@ router.get("/upcomingLive/:page", async (req, res) => {
 });
 
 // Get list of completed matches
-router.get("/completed", async (req, res) => {
+router.get("/completed/:page", async (req, res) => {
+    const page = parseInt(req.params.page) || 1;
     try {
-        const matches = await getCompletedMatches();
+        const matches = await getCompletedMatches(page);
         res.status(200).json(matches);
     }
     catch (error) {

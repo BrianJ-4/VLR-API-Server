@@ -27,7 +27,7 @@ async function getUpcomingAndLiveMatches(page) {
                     Event: getText(match.querySelector("div.match-item-event.text-of").childNodes[2]),
                     SubEvent: getText(match.querySelector("div.match-item-event.text-of").childNodes[1]),
                     Status: getText(match.querySelector("div.ml-status"))
-                }
+                };
                 if (dateMatches[k].Status == "LIVE") {
                     const scores = match.querySelectorAll("div.match-item-vs-team-score")
                     dateMatches[k].TeamAScore = getText(scores[0]);
@@ -43,7 +43,7 @@ async function getUpcomingAndLiveMatches(page) {
             if (dates[i].includes("Today")) {
                 dates[i] = dates[i].substring(0, dates[i].indexOf("\n") - 1);
             }
-            upcomingAndLiveMatches[dates[i]] = dateMatches
+            upcomingAndLiveMatches[dates[i]] = dateMatches;
             i += 1;
         });
         return upcomingAndLiveMatches;
@@ -54,10 +54,51 @@ async function getUpcomingAndLiveMatches(page) {
     }
 }
 
-async function getCompletedMatches() {
-    return {
-        function: "getCompletedMatches"
-    };
+async function getCompletedMatches(page) {
+    const url = `https://vlr.gg/matches/results/?page=${page}`;
+    try {
+        // Access page and get HTML
+        const doc = await getPage(url);
+
+        let completedMatches = {};
+        const dateSections = doc.querySelectorAll("div.wf-card[style]");
+        let dates = doc.querySelectorAll("div.wf-label.mod-large");
+        dates = dates.map(date => getText(date));
+        let i = 0;
+
+        dateSections.forEach(day => {
+            let k = 0;
+            const matches = day.children;
+            let dateMatches = {};
+
+            matches.forEach(match => {
+                const scores = match.querySelectorAll("div.match-item-vs-team-score")
+                const completedSince = match.querySelector("div.ml-eta.mod-completed")
+                dateMatches[k] = {
+                    ID: match.attributes["href"].match(/\/(\d+)\//)[1],
+                    Time: getText(match.querySelector("div.match-item-time")),
+                    TeamA: getText(match.querySelectorAll("div.match-item-vs-team-name")[0]),
+                    TeamB: getText(match.querySelectorAll("div.match-item-vs-team-name")[1]),
+                    Event: getText(match.querySelector("div.match-item-event.text-of").childNodes[2]),
+                    SubEvent: getText(match.querySelector("div.match-item-event.text-of").childNodes[1]),
+                    TeamAScore: getText(scores[0]),
+                    TeamBScore: getText(scores[1]),
+                    TimeCompleted: getText(completedSince)
+                };
+                k += 1;
+            });
+            if (dates[i].includes("Today") || dates[i].includes("Yesterday")) {
+                dates[i] = dates[i].substring(0, dates[i].indexOf("\n") - 1);
+            }
+            completedMatches[dates[i]] = dateMatches;
+            i += 1;
+        });
+        return completedMatches;
+    } 
+    catch (error) {
+        console.error("Error:", error.message);
+        res.status(500).json({ error: "Failed to fetch site data" });
+    }
 }
 
 async function getMatchInformation(matchID) {
