@@ -1,11 +1,15 @@
 const express = require("express");
 
+const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches/matches_scraper");
+
 const router = express.Router();
 
 // Get list of upcoming and live matches
-router.get("/upcomingLive", async (req, res) => {
+router.get("/upcomingLive/:page", async (req, res) => {
+    const page = parseInt(req.params.page) || 1;
     try {
-        res.status(200).json(articles);
+        const matches = await getUpcomingAndLiveMatches(page);
+        res.status(200).json(matches);
     }
     catch (error) {
         res.status(500).json({ error: "Failed to get upcoming and live matches" });
@@ -13,9 +17,11 @@ router.get("/upcomingLive", async (req, res) => {
 });
 
 // Get list of completed matches
-router.get("/completed", async (req, res) => {
+router.get("/completed/:page", async (req, res) => {
+    const page = parseInt(req.params.page) || 1;
     try {
-        res.status(200).json(articles);
+        const matches = await getCompletedMatches(page);
+        res.status(200).json(matches);
     }
     catch (error) {
         res.status(500).json({ error: "Failed to get completed matches" });
@@ -26,7 +32,8 @@ router.get("/completed", async (req, res) => {
 router.get("/:matchID", async (req, res) => {
     const matchID = parseInt(req.params.matchID);
     try {
-        res.status(200).json(articles);
+        const matchInformation = await getMatchInformation(matchID);
+        res.status(200).json(matchInformation);
     }
     catch (error) {
         res.status(500).json({ error: "Failed to get match data" });

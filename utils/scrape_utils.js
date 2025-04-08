@@ -1,8 +1,10 @@
 const axios = require("axios");
+const parser = require("node-html-parser");
 
 async function getPage(url) {
     const response = await axios.get(url);
-    return response;
+    const doc = parser.parse(response.data);
+    return doc;
 }
 
 function getText(element) {

@@ -5,6 +5,11 @@ app.use(express.json());
 const newsRoutes = require("./routes/news");
 const matchesRoutes = require("./routes/matches");
 
+app.use((req, res, next) => {
+    console.log(`Incoming request: ${req.method} ${req.url}`);
+    next();
+});
+
 app.use("/news", newsRoutes);
 app.use("/matches", matchesRoutes);
 
