@@ -103,7 +103,7 @@ async function getCompletedMatches(page) {
 
 async function getMatchInformation(matchID) {
     const url = `https://vlr.gg/${matchID}`;
-    let matchInformation = {}
+    let matchInformation = {};
     try {
         // Access page and get HTML
         const doc = await getPage(url);
