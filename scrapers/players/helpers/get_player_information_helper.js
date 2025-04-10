@@ -28,7 +28,31 @@ function getMainHeaderData(mainHeader) {
     // Player nationality
     playerDetails.Nationality = getText(playerDetailsSection.querySelector("i.flag").nextSibling);
     
-    return playerDetails
+    return playerDetails;
 }
 
-module.exports = { getMainHeaderData };
+function getPlayerAgentStats(statsTable) {
+    const agentRows = statsTable.querySelector("tbody").querySelectorAll("tr");
+    let agentStats = {};
+
+    agentRows.forEach(agent => {
+        let agentInfo = {};
+        const values = agent.querySelectorAll("td");
+
+        let agentName = values[0].querySelector("img").attributes.alt;
+        agentName = agentName.charAt(0).toUpperCase() + agentName.slice(1); // Capitalize first letter
+        agentInfo.Pick = getText(values[1]).split(" ")[1];
+
+        const keys = [
+            "Rounds", "Rating", "ACS", "KD", "ADR", "KAST", "KPR", "APR", 
+            "FKPR", "FDPR", "Kills", "Deaths", "Assists", "FKs", "FDs"
+        ];
+        keys.forEach((key, i) => {
+            agentInfo[key] = getText(values[i + 2]);
+        });
+        agentStats[agentName] = agentInfo;
+    });
+    return agentStats;
+}
+
+module.exports = { getMainHeaderData, getPlayerAgentStats };
