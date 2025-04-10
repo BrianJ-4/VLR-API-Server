@@ -102,7 +102,7 @@ function getPlayerResults(resultsSection) {
 
 function getPlayerTeams(teamSections) {
     let teams = {};
-    
+
     // Current team
     teams.CurrentTeam = processTeamCard(teamSections[0].querySelector("a"));
 
