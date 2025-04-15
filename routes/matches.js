@@ -1,8 +1,8 @@
 const express = require("express");
+const router = express.Router();
 
 const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches/matches_scraper");
-
-const router = express.Router();
+const { checkCache, setCache } = require("../utils/")
 
 // Get list of upcoming and live matches
 router.get("/upcomingLive/:page", async (req, res) => {
@@ -29,10 +29,15 @@ router.get("/completed/:page", async (req, res) => {
 });
 
 // Get match data by ID
-router.get("/:matchID", async (req, res) => {
+router.get("/:matchID", cache(`/matches/${req.params.matchID}`, 600), async (req, res) => {
     const matchID = parseInt(req.params.matchID);
+    const cacheData = checkCache(`/matches/${matchID}`);
+    if (cacheData) {
+        return res.status(200).json(cacheData);
+    }
     try {
         const matchInformation = await getMatchInformation(matchID);
+        setCache(key, matchInformation, 600);
         res.status(200).json(matchInformation);
     }
     catch (error) {
