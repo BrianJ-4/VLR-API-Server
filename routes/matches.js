@@ -8,8 +8,13 @@ const { hoursSince } = require("../utils/date");
 // Get list of upcoming and live matches
 router.get("/upcomingLive/:page", async (req, res) => {
     const page = parseInt(req.params.page) || 1;
+    const key = `/upcomingLive/${page}` // Key for cache
+    const cacheData = checkCache(key);
+    if (cacheData)
+        return res.status(200).json(cacheData);
     try {
         const matches = await getUpcomingAndLiveMatches(page);
+        setCache(key, matches, 300) // Cache upcoming and live matches list for 5 minutes
         res.status(200).json(matches);
     }
     catch (error) {
@@ -20,8 +25,13 @@ router.get("/upcomingLive/:page", async (req, res) => {
 // Get list of completed matches
 router.get("/completed/:page", async (req, res) => {
     const page = parseInt(req.params.page) || 1;
+    const key = `/completed/${page}` // Key for cache
+    const cacheData = checkCache(key);
+    if (cacheData)
+        return res.status(200).json(cacheData);
     try {
         const matches = await getCompletedMatches(page);
+        setCache(key, matches, 300) // Cache completed matches list for 5 minutes
         res.status(200).json(matches);
     }
     catch (error) {
@@ -32,11 +42,10 @@ router.get("/completed/:page", async (req, res) => {
 // Get match data by ID
 router.get("/:matchID", async (req, res) => {
     const matchID = parseInt(req.params.matchID);
-    const key = `/matches/${matchID}`
+    const key = `/matches/${matchID}` // Key for cache
     const cacheData = checkCache(key);
-    if (cacheData) {
+    if (cacheData)
         return res.status(200).json(cacheData);
-    }
     try {
         const matchInformation = await getMatchInformation(matchID);
         if (matchInformation.MatchDetails.Status == "live")
