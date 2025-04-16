@@ -12,23 +12,19 @@ async function getArticles(page) {
         const articles = [];
         // Create article object for all articles
         articleElements.forEach((article) => {
+            let articleObj = {};
+
             // Get title and description
-            const title = getText(article.querySelector("div").children[0]);
-            const description = getText(article.querySelector("div").children[1]);
+            articleObj.ID = article.attributes.href.match(/\/(\d+)\//)[1];
+            articleObj.Title = getText(article.querySelector("div").children[0]);
+            articleObj.Description = getText(article.querySelector("div").children[1]);
 
             // Get date and author (Has more steps)
             const dateAndAuthor = getText(article.querySelector("div.ge-text-light"));
             const parts = dateAndAuthor.split("•").map(part => part.trim());
-            const date = parts[1];
-            const author = parts[2]?.replace("by ", "").trim();
-
-            // Construct article object and add to list
-            const articleObj = {
-                title: title,
-                description: description,
-                author: author,
-                date: date
-            }
+            articleObj.Date = parts[1];
+            articleObj.Author = parts[2]?.replace("by ", "").trim();
+            
             articles.push(articleObj);
         });
         return articles;
