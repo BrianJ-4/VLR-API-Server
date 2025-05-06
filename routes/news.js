@@ -1,14 +1,20 @@
 const express = require("express");
+const router = express.Router();
 
 const { getArticles, getArticleByID } = require("../scrapers/news/news_scraper");
-
-const router = express.Router();
+const { checkCache, setCache } = require("../utils/cache")
+const { hoursSince } = require("../utils/date_time");
 
 // Get list of articles
 router.get("/:page", async (req, res) => {
     const page = parseInt(req.params.page) || 1;
+    const key = `/news/${page}` // Key for cache
+    const cacheData = checkCache(key);
+    if (cacheData)
+        return res.status(200).json(cacheData);
     try {
         const articles = await getArticles(page);
+        setCache(key, articles, 1800) // Cache articles list for 30 minutes
         res.status(200).json(articles);
     }
     catch (error) {
@@ -19,8 +25,14 @@ router.get("/:page", async (req, res) => {
 // Get an article by ID
 router.get("/article/:articleID", async (req, res) => {
     const articleID = parseInt(req.params.articleID);
+    const key = `/news/article/${articleID}` // Key for cache
+    const cacheData = checkCache(key);
+    if (cacheData)
+        return res.status(200).json(cacheData);
     try {
         const article = await getArticleByID(articleID);
+        if (hoursSince(article.date) <= 168) // Cache article published within one week for 84 hours
+            setCache(key, article, 5040)
         res.status(200).json(article);
     }
     catch (error) {

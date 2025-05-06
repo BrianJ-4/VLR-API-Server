@@ -17,7 +17,7 @@ function getMainHeaderData(mainHeader) {
     // Date details
     const dateSection = matchInformationSection.querySelector("div.match-header-date");
     matchInfo.Date = getText(dateSection.children[0]);
-    matchInfo.Time = getText(dateSection.children[1]);
+    matchInfo.Time = dateSection.children[1].attributes["data-utc-ts"].replace(" ", "T") + "Z";
 
     // Match and teams information *****************************************************************
     // Collects: Team Names, Team Scores, Match Status, Best of, Team Images
