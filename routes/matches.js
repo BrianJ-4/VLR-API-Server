@@ -3,12 +3,12 @@ const router = express.Router();
 
 const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches/matches_scraper");
 const { checkCache, setCache } = require("../utils/cache")
-const { hoursSince } = require("../utils/date");
+const { hoursSince } = require("../utils/date_time");
 
 // Get list of upcoming and live matches
 router.get("/upcomingLive/:page", async (req, res) => {
     const page = parseInt(req.params.page) || 1;
-    const key = `/upcomingLive/${page}` // Key for cache
+    const key = `/matches/upcomingLive/${page}` // Key for cache
     const cacheData = checkCache(key);
     if (cacheData)
         return res.status(200).json(cacheData);
@@ -25,7 +25,7 @@ router.get("/upcomingLive/:page", async (req, res) => {
 // Get list of completed matches
 router.get("/completed/:page", async (req, res) => {
     const page = parseInt(req.params.page) || 1;
-    const key = `/completed/${page}` // Key for cache
+    const key = `/matches/completed/${page}` // Key for cache
     const cacheData = checkCache(key);
     if (cacheData)
         return res.status(200).json(cacheData);

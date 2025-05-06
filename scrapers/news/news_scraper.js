@@ -1,4 +1,5 @@
 const { getPage, getText } = require("../../utils/scrape_utils");
+const { convertStringToUTC } = require("../../utils/date_time");
 
 async function getArticles(page) {
     const url = `https://vlr.gg/news/?page=${page}`;
@@ -48,7 +49,7 @@ async function getArticleByID(articleID) {
 
         // Get date
         const dateAttributes = article.querySelector("span.js-date-toggle").attributes;
-        const date = dateAttributes.title;
+        const date = await convertStringToUTC(dateAttributes.title);
 
         // Get article content
         const content = article.querySelector("div.article-body").innerHTML;
