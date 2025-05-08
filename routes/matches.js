@@ -4,6 +4,7 @@ const router = express.Router();
 const { getUpcomingAndLiveMatches, getCompletedMatches, getMatchInformation } = require("../scrapers/matches/matches_scraper");
 const { checkCache, setCache } = require("../utils/cache")
 const { hoursSince } = require("../utils/date_time");
+const { fetchAndParse } = require("../utils/scrape_utils");
 
 // Get list of upcoming and live matches
 router.get("/upcomingLive/:page", async (req, res) => {
@@ -13,7 +14,7 @@ router.get("/upcomingLive/:page", async (req, res) => {
     if (cacheData)
         return res.status(200).json(cacheData);
     try {
-        const matches = await getUpcomingAndLiveMatches(page);
+        const matches = await fetchAndParse(`/matches/?page=${page}`, getUpcomingAndLiveMatches);
         setCache(key, matches, 300) // Cache upcoming and live matches list for 5 minutes
         res.status(200).json(matches);
     }
@@ -30,7 +31,7 @@ router.get("/completed/:page", async (req, res) => {
     if (cacheData)
         return res.status(200).json(cacheData);
     try {
-        const matches = await getCompletedMatches(page);
+        const matches = await fetchAndParse(`/matches/results/?page=${page}`, getCompletedMatches);
         setCache(key, matches, 300) // Cache completed matches list for 5 minutes
         res.status(200).json(matches);
     }
@@ -47,7 +48,7 @@ router.get("/:matchID", async (req, res) => {
     if (cacheData)
         return res.status(200).json(cacheData);
     try {
-        const matchInformation = await getMatchInformation(matchID);
+        const matchInformation = await fetchAndParse(`/${matchID}`, getMatchInformation);
         if (matchInformation.MatchDetails.Status == "live")
             setCache(key, matchInformation, 120); // Cache live match for 2 minutes
         else if (hoursSince(matchInformation.MatchDetails.Time) <= 336)

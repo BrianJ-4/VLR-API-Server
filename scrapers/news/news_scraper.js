@@ -1,12 +1,8 @@
-const { getPage, getText } = require("../../utils/scrape_utils");
+const { getText } = require("../../utils/scrape_utils");
 const { convertStringToUTC } = require("../../utils/date_time");
 
-async function getArticles(page) {
-    const url = `https://vlr.gg/news/?page=${page}`;
+async function getArticles(doc) {
     try {
-        // Access page and get HTML
-        const doc = await getPage(url);
-
         // Get articles in page
         const news = doc.querySelector("div.wf-card");
         const articleElements = news.querySelectorAll("a");
@@ -36,12 +32,8 @@ async function getArticles(page) {
     }
 }
 
-async function getArticleByID(articleID) {
-    const url = `https://vlr.gg/${articleID}`;
+async function getArticleByID(doc) {
     try {
-        // Access page and get HTML
-        const doc = await getPage(url);
-
         // Get title and author
         const article = doc.querySelector("div.wf-card.mod-article");
         const title = getText(article.querySelector("h1.wf-title"));

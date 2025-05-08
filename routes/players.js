@@ -2,6 +2,7 @@ const express = require("express");
 
 const { getPlayerInformation } = require("../scrapers/players/players_scraper");
 const { checkCache, setCache } = require("../utils/cache")
+const { fetchAndParse } = require("../utils/scrape_utils")
 
 const router = express.Router();
 
@@ -13,7 +14,7 @@ router.get("/:playerID", async (req, res) => {
     if (cacheData)
         return res.status(200).json(cacheData);
     try {
-        const playerInformation = await getPlayerInformation(playerID);
+        const playerInformation = await fetchAndParse(`/player/${playerID}/?timespan=all`, getPlayerInformation)
         setCache(key, playerInformation, 600) // Cache player information for 10 minutes
         res.status(200).json(playerInformation);
     }
