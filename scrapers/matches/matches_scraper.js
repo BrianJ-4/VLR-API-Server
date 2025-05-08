@@ -1,12 +1,8 @@
 const { getPage, getText } = require("../../utils/scrape_utils");
 const { getMainHeaderData, getStreamsAndVods, getStats } = require("../matches/helpers/get_match_information_helper");
 
-async function getUpcomingAndLiveMatches(page) {
-    const url = `https://vlr.gg/matches/?page=${page}`;
+async function getUpcomingAndLiveMatches(doc) {
     try {
-        // Access page and get HTML
-        const doc = await getPage(url);
-
         let upcomingAndLiveMatches = {};
         const dateSections = doc.querySelectorAll("div.wf-card[style]");
         let dates = doc.querySelectorAll("div.wf-label.mod-large");
@@ -54,12 +50,8 @@ async function getUpcomingAndLiveMatches(page) {
     }
 }
 
-async function getCompletedMatches(page) {
-    const url = `https://vlr.gg/matches/results/?page=${page}`;
+async function getCompletedMatches(doc) {
     try {
-        // Access page and get HTML
-        const doc = await getPage(url);
-
         let completedMatches = {};
         const dateSections = doc.querySelectorAll("div.wf-card[style]");
         let dates = doc.querySelectorAll("div.wf-label.mod-large");
@@ -101,13 +93,9 @@ async function getCompletedMatches(page) {
     }
 }
 
-async function getMatchInformation(matchID) {
-    const url = `https://vlr.gg/${matchID}`;
+async function getMatchInformation(doc) {
     let matchInformation = {};
     try {
-        // Access page and get HTML
-        const doc = await getPage(url);
-
         // Get Information From Helpers
         matchInformation.MatchDetails = getMainHeaderData(doc.querySelector("div.wf-card.match-header"));
         matchInformation.Videos = getStreamsAndVods(doc.querySelector("div.match-streams-bets-container"));
