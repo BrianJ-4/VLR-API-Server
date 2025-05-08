@@ -1,4 +1,4 @@
-const { getPage, getText } = require("../../utils/scrape_utils");
+const { getText } = require("../../utils/scrape_utils");
 const { getMainHeaderData, getStreamsAndVods, getStats } = require("../matches/helpers/get_match_information_helper");
 
 async function getUpcomingAndLiveMatches(doc) {

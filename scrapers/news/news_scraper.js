@@ -1,4 +1,4 @@
-const { getPage, getText } = require("../../utils/scrape_utils");
+const { getText } = require("../../utils/scrape_utils");
 const { convertStringToUTC } = require("../../utils/date_time");
 
 async function getArticles(doc) {

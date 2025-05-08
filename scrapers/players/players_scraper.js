@@ -1,4 +1,3 @@
-const { getPage, getText } = require("../../utils/scrape_utils");
 const { getMainHeaderData, getPlayerAgentStats, getPlayerResults, getPlayerTeams } = require("../players/helpers/get_player_information_helper")
 
 async function getPlayerInformation(doc) {

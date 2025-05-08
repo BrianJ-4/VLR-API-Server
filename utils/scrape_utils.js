@@ -17,4 +17,4 @@ function getText(element) {
     return element.text.trim();
 }
 
-module.exports = { fetchAndParse, getPage, getText };
+module.exports = { fetchAndParse, getText };
