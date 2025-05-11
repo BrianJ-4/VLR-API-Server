@@ -26,9 +26,4 @@ async function getExpectedOutput(file) {
     
 }
 
-// getPage("../test_data/matches/test_upcoming_match.html")
-//     .then(doc => console.log(doc.innerHTML))
-//     .catch(err => console.error(err));
-
-
 module.exports = { getPage, getExpectedOutput };
