@@ -1,0 +1,562 @@
+{
+    "Sat, May 10, 2025": {
+        "0": {
+            "ID": "482508",
+            "Time": "10:25 AM",
+            "TeamA": "Team Liquid",
+            "TeamB": "FNATIC",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "12h 20m"
+        },
+        "1": {
+            "ID": "482507",
+            "Time": "8:00 AM",
+            "TeamA": "Team Heretics",
+            "TeamB": "BBL Esports",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "14h 45m"
+        },
+        "2": {
+            "ID": "485379",
+            "Time": "4:15 AM",
+            "TeamA": "Titan Esports Club",
+            "TeamB": "Wolves Esports",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Semifinals",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "18h 30m"
+        },
+        "3": {
+            "ID": "485378",
+            "Time": "2:00 AM",
+            "TeamA": "EDward Gaming",
+            "TeamB": "Trace Esports",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Semifinals",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "20h 45m"
+        },
+        "4": {
+            "ID": "473843",
+            "Time": "1:00 AM",
+            "TeamA": "Rex Regum Qeon",
+            "TeamB": "Paper Rex",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Lower Final",
+            "TeamAScore": "3",
+            "TeamBScore": "2",
+            "TimeCompleted": "21h 45m"
+        }
+    },
+    "Fri, May 9, 2025": {
+        "0": {
+            "ID": "485319",
+            "Time": "4:30 PM",
+            "TeamA": "Berzerkers Dawn",
+            "TeamB": "Teevee",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "1d 6h"
+        },
+        "1": {
+            "ID": "485317",
+            "Time": "4:05 PM",
+            "TeamA": "Teddy Tactics",
+            "TeamB": "Evolution",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "1d 6h"
+        },
+        "2": {
+            "ID": "485313",
+            "Time": "2:00 PM",
+            "TeamA": "FlyQuest RED",
+            "TeamB": "Wadadaa",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "1d 8h"
+        },
+        "3": {
+            "ID": "485314",
+            "Time": "2:00 PM",
+            "TeamA": "Ghost Gaming",
+            "TeamB": "Aussie and Friends",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "1d 8h"
+        },
+        "4": {
+            "ID": "485315",
+            "Time": "2:00 PM",
+            "TeamA": "YFP X",
+            "TeamB": "Fisher Fumblers",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "1d 8h"
+        },
+        "5": {
+            "ID": "485316",
+            "Time": "2:00 PM",
+            "TeamA": ":3",
+            "TeamB": "kessoku band",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "1d 8h"
+        },
+        "6": {
+            "ID": "482506",
+            "Time": "12:05 PM",
+            "TeamA": "FUT Esports",
+            "TeamB": "Team Vitality",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 1",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "1d 10h"
+        },
+        "7": {
+            "ID": "482505",
+            "Time": "8:00 AM",
+            "TeamA": "Natus Vincere",
+            "TeamB": "Karmine Corp",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 1",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "1d 14h"
+        },
+        "8": {
+            "ID": "485377",
+            "Time": "3:55 AM",
+            "TeamA": "Wolves Esports",
+            "TeamB": "TYLOO",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "1d 18h"
+        },
+        "9": {
+            "ID": "473842",
+            "Time": "3:00 AM",
+            "TeamA": "DRX",
+            "TeamB": "Paper Rex",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Lower Round 3",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "1d 19h"
+        },
+        "10": {
+            "ID": "485376",
+            "Time": "1:40 AM",
+            "TeamA": "Dragon Ranger Gaming",
+            "TeamB": "Titan Esports Club",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "1d 21h"
+        },
+        "11": {
+            "ID": "473841",
+            "Time": "1:00 AM",
+            "TeamA": "Gen.G",
+            "TeamB": "Rex Regum Qeon",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Upper Final",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "1d 21h"
+        }
+    },
+    "Thu, May 8, 2025": {
+        "0": {
+            "ID": "485375",
+            "Time": "11:00 PM",
+            "TeamA": "Trace Esports",
+            "TeamB": "Nova Esports",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "1d 23h"
+        },
+        "1": {
+            "ID": "485374",
+            "Time": "9:00 PM",
+            "TeamA": "EDward Gaming",
+            "TeamB": "FunPlus Phoenix",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 1h"
+        },
+        "2": {
+            "ID": "485588",
+            "Time": "4:00 PM",
+            "TeamA": "Landor",
+            "TeamB": "TSM",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 7",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "2d 6h"
+        },
+        "3": {
+            "ID": "485000",
+            "Time": "3:00 PM",
+            "TeamA": "CINTANEGRA Esports",
+            "TeamB": "KTANA Esports",
+            "Event": "Challengers League 2025 LATAM North ACE: Stage 2",
+            "SubEvent": "Promotion/Relegation–Decider",
+            "TeamAScore": "2",
+            "TeamBScore": "3",
+            "TimeCompleted": "2d 7h"
+        },
+        "4": {
+            "ID": "485587",
+            "Time": "1:00 PM",
+            "TeamA": "YFP",
+            "TeamB": "Blue Otter",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 7",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "2d 9h"
+        },
+        "5": {
+            "ID": "484994",
+            "Time": "12:00 PM",
+            "TeamA": "Las Cabras",
+            "TeamB": "Kaos Latin Gamers",
+            "Event": "Challengers League 2025 LATAM South ACE: Stage 2",
+            "SubEvent": "Promotion/Relegation–Decider",
+            "TeamAScore": "3",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 10h"
+        },
+        "6": {
+            "ID": "482504",
+            "Time": "11:00 AM",
+            "TeamA": "FNATIC",
+            "TeamB": "FUT Esports",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Round 1",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 11h"
+        },
+        "7": {
+            "ID": "482503",
+            "Time": "8:00 AM",
+            "TeamA": "BBL Esports",
+            "TeamB": "Natus Vincere",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Round 1",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 14h"
+        },
+        "8": {
+            "ID": "464795",
+            "Time": "6:00 AM",
+            "TeamA": "FULL SENSE",
+            "TeamB": "NAOS",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Upper Final",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "2d 16h"
+        },
+        "9": {
+            "ID": "475208",
+            "Time": "4:25 AM",
+            "TeamA": "SLT Seongnam",
+            "TeamB": "Dplus Esports",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 3",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 18h"
+        },
+        "10": {
+            "ID": "464797",
+            "Time": "4:00 AM",
+            "TeamA": "Motiv Esports",
+            "TeamB": "Sharper Esport",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Lower Round 1",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 18h"
+        },
+        "11": {
+            "ID": "485373",
+            "Time": "3:20 AM",
+            "TeamA": "JDG Esports",
+            "TeamB": "TYLOO",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Round of 12",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "2d 19h"
+        },
+        "12": {
+            "ID": "475207",
+            "Time": "1:00 AM",
+            "TeamA": "FEARX",
+            "TeamB": "FN Pocheon",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 3",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "2d 21h"
+        },
+        "13": {
+            "ID": "485372",
+            "Time": "1:00 AM",
+            "TeamA": "Titan Esports Club",
+            "TeamB": "Bilibili Gaming",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Round of 12",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "2d 21h"
+        }
+    },
+    "Wed, May 7, 2025": {
+        "0": {
+            "ID": "485371",
+            "Time": "11:00 PM",
+            "TeamA": "Nova Esports",
+            "TeamB": "Xi Lai Gaming",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Round of 12",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "2d 23h"
+        },
+        "1": {
+            "ID": "485370",
+            "Time": "9:00 PM",
+            "TeamA": "FunPlus Phoenix",
+            "TeamB": "All Gamers",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Round of 12",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "3d 1h"
+        },
+        "2": {
+            "ID": "481899",
+            "Time": "3:00 PM",
+            "TeamA": "Burger Boyz",
+            "TeamB": "TSM",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 6",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "3d 7h"
+        },
+        "3": {
+            "ID": "454576",
+            "Time": "1:00 PM",
+            "TeamA": "Artic Tiger",
+            "TeamB": "F4TALITY",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Relegation–Decider",
+            "TeamAScore": "0",
+            "TeamBScore": "3",
+            "TimeCompleted": "3d 9h"
+        },
+        "4": {
+            "ID": "481898",
+            "Time": "1:00 PM",
+            "TeamA": "Cubert Academy",
+            "TeamB": "YFP",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 6",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "3d 9h"
+        },
+        "5": {
+            "ID": "464794",
+            "Time": "7:20 AM",
+            "TeamA": "Sharper Esport",
+            "TeamB": "NAOS",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "3d 15h"
+        },
+        "6": {
+            "ID": "479488",
+            "Time": "4:45 AM",
+            "TeamA": "Team HYG",
+            "TeamB": "Team ANC",
+            "Event": "Game Changers 2025 China: Stage 1",
+            "SubEvent": "Group Stage–Decider (B)",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "3d 18h"
+        },
+        "7": {
+            "ID": "475206",
+            "Time": "4:40 AM",
+            "TeamA": "Gen.G Global Academy",
+            "TeamB": "DRX Academy",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 3",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "3d 18h"
+        },
+        "8": {
+            "ID": "464793",
+            "Time": "4:00 AM",
+            "TeamA": "FULL SENSE",
+            "TeamB": "Motiv Esports",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "3d 18h"
+        },
+        "9": {
+            "ID": "479483",
+            "Time": "2:00 AM",
+            "TeamA": "Dream Chaser",
+            "TeamB": "1one GC",
+            "Event": "Game Changers 2025 China: Stage 1",
+            "SubEvent": "Group Stage–Decider (A)",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "3d 20h"
+        },
+        "10": {
+            "ID": "475205",
+            "Time": "1:00 AM",
+            "TeamA": "T1 Academy",
+            "TeamB": "SHERPA",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 3",
+            "TeamAScore": "2",
+            "TeamBScore": "1",
+            "TimeCompleted": "3d 21h"
+        }
+    },
+    "Tue, May 6, 2025": {
+        "0": {
+            "ID": "481897",
+            "Time": "4:30 PM",
+            "TeamA": "Funhavers",
+            "TeamB": "Winthrop University",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 6",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "4d 6h"
+        },
+        "1": {
+            "ID": "454574",
+            "Time": "3:20 PM",
+            "TeamA": "Artic Tiger",
+            "TeamB": "Agropesca Jacare",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Relegation–Winner's",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "4d 7h"
+        },
+        "2": {
+            "ID": "454575",
+            "Time": "1:00 PM",
+            "TeamA": "F4TALITY",
+            "TeamB": "TUNG TUNG TUNG SAHUR",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Relegation–Elimination",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "4d 9h"
+        },
+        "3": {
+            "ID": "481895",
+            "Time": "1:00 PM",
+            "TeamA": "Shopify Rebellion Black",
+            "TeamB": "Blue Otter",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 6",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "4d 9h"
+        },
+        "4": {
+            "ID": "481896",
+            "Time": "1:00 PM",
+            "TeamA": "Landor",
+            "TeamB": "QoR",
+            "Event": "Challengers League 2025 North America ACE: Stage 2",
+            "SubEvent": "Swiss Stage–Round 6",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "4d 9h"
+        },
+        "5": {
+            "ID": "484183",
+            "Time": "11:30 AM",
+            "TeamA": "Orgless 2.0",
+            "TeamB": "3BL Esports",
+            "Event": "Challengers League 2025 MENA Resilience: North Africa and Levant Split 1",
+            "SubEvent": "Relegations–Upper Bracket Final",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TimeCompleted": "4d 11h"
+        },
+        "6": {
+            "ID": "484219",
+            "Time": "9:00 AM",
+            "TeamA": "Yung",
+            "TeamB": "Terminator's Den",
+            "Event": "Challengers League 2025 MENA Resilience: GCC-Pakistan-Iraq Split 1",
+            "SubEvent": "Relegations–Lower Round 2",
+            "TeamAScore": "2",
+            "TeamBScore": "0",
+            "TimeCompleted": "4d 13h"
+        },
+        "7": {
+            "ID": "464792",
+            "Time": "6:30 AM",
+            "TeamA": "RRQ Academy",
+            "TeamB": "NAOS",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Knockout Round",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TimeCompleted": "4d 16h"
+        }
+    }
+}
