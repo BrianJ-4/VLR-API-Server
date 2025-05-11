@@ -7,7 +7,7 @@ async function getPlayerInformation(doc) {
         playerInformation.Details = getMainHeaderData(doc.querySelector("div.player-header"));
         playerInformation.AgentStats = getPlayerAgentStats(doc.querySelector("table.wf-table"));
         playerInformation.Results = getPlayerResults(doc.querySelector("div.player-summary-container-1").children[3]);
-        playerInformation.Teams = getPlayerTeams(doc.querySelector("div.player-summary-container-1").querySelectorAll('div[class="wf-card"]'));
+        playerInformation.Teams = getPlayerTeams(doc.querySelector("div.player-summary-container-1"));
 
         return playerInformation;
     }

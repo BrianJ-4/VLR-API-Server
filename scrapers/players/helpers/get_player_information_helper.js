@@ -1,5 +1,3 @@
-const parser = require("node-html-parser");
-
 const { getText } = require("../../../utils/scrape_utils");
 
 function getMainHeaderData(mainHeader) {
@@ -100,19 +98,35 @@ function getPlayerResults(resultsSection) {
     return results;
 }
 
-function getPlayerTeams(teamSections) {
+// Need to rewrite to remove repeated code
+function getPlayerTeams(section) {
     let teams = {};
 
-    // Current team
-    teams.CurrentTeam = processTeamCard(teamSections[0].querySelector("a"));
+    const labels = section.querySelectorAll("h2.wf-label.mod-large");
+    const teamSections = section.querySelectorAll('div[class="wf-card"]');
 
-    // Past teams
-    let pastTeams = {};
-    const pastTeamCards = teamSections[1].querySelectorAll("a");
-    for (let i = 0; i < pastTeamCards.length; i++)
-        pastTeams[i] = processTeamCard(pastTeamCards[i]);
-    teams.PastTeams = pastTeams;
+    if (labels.length == 3) {
+        // Current team
+        teams.CurrentTeam = processTeamCard(teamSections[0].querySelector("a"));
 
+        // Past teams
+        let pastTeams = {};
+        const pastTeamCards = teamSections[1].querySelectorAll("a");
+        for (let i = 0; i < pastTeamCards.length; i++)
+            pastTeams[i] = processTeamCard(pastTeamCards[i]);
+        teams.PastTeams = pastTeams;
+    }
+    else {
+        if (getText(labels[1]) == "Current Teams")
+            teams.CurrentTeam = processTeamCard(teamSections[0].querySelector("a"));
+        else if (getText(labels[1]) == "Past Teams") {
+            let pastTeams = {};
+            const pastTeamCards = teamSections[0].querySelectorAll("a");
+            for (let i = 0; i < pastTeamCards.length; i++)
+                pastTeams[i] = processTeamCard(pastTeamCards[i]);
+            teams.PastTeams = pastTeams;
+        }
+    }
     return teams;
 }
 
