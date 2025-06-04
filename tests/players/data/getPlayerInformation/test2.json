@@ -258,6 +258,7 @@
             "TeamAScore": "0",
             "TeamBScore": "2",
             "TeamAWin": false,
+            "Status": "Completed",
             "Date": "2025/04/25",
             "Time": "2:00 pm"
         },
@@ -273,6 +274,7 @@
             "TeamAScore": "2",
             "TeamBScore": "0",
             "TeamAWin": true,
+            "Status": "Completed",
             "Date": "2025/04/20",
             "Time": "6:00 pm"
         },
@@ -288,6 +290,7 @@
             "TeamAScore": "0",
             "TeamBScore": "2",
             "TeamAWin": false,
+            "Status": "Completed",
             "Date": "2025/04/13",
             "Time": "4:10 pm"
         },
@@ -303,6 +306,7 @@
             "TeamAScore": "0",
             "TeamBScore": "2",
             "TeamAWin": false,
+            "Status": "Completed",
             "Date": "2025/04/05",
             "Time": "5:10 pm"
         },
@@ -318,6 +322,7 @@
             "TeamAScore": "2",
             "TeamBScore": "1",
             "TeamAWin": true,
+            "Status": "Completed",
             "Date": "2025/03/28",
             "Time": "2:00 pm"
         }
