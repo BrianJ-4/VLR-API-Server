@@ -56,8 +56,30 @@ function getTeamMatches(matchesSection) {
     return matches;
 }
 
-function getTeamRoster() {
+function getTeamRoster(people) {
+    let roster = {}
+    people.forEach(person => {
+        let details = {}
+        details.PlayerID = person.querySelector("a").attributes.href.split("/")[2]
+        details.PlayerImage = person.querySelector("img").attributes.src
+        details.PlayerName = getText(person.querySelector("div.team-roster-item-name-alias"))
+        details.PlayerRealName = getText(person.querySelector("div.team-roster-item-name-real"))
+        
+        if (person.querySelector("i.fa.fa-star"))
+            details.Note = "IGL"
 
+        const notes = person.querySelectorAll("div.team-roster-item-name-role");
+        if (notes.length > 0) {
+            let playerNotes = {}
+            notes.forEach((role, k) => {
+                playerNotes[k] = getText(role)
+            });
+            details.Note = playerNotes
+        }
+        roster[details.PlayerName] = details
+    });
+
+    return roster
 }
 
 function getTeamWinnings() {
