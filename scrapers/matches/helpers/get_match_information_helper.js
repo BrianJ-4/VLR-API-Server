@@ -12,7 +12,7 @@ function getMainHeaderData(mainHeader) {
     const eventSection = matchInformationSection.children[0].querySelector("a.match-header-event");
     matchInfo.EventID = eventSection.attributes.href.split("/")[2];
     matchInfo.EventName = getText(eventSection.querySelector("div > div"));
-    matchInfo.SubEvent = getText(eventSection.querySelector("div.match-header-event-series")).replaceAll("\n", "").replaceAll("\t", "");
+    matchInfo.SubEvent = getText(eventSection.querySelector("div.match-header-event-series")).replace(/\s+/g, " ").trim();
 
     // Date details
     const dateSection = matchInformationSection.querySelector("div.match-header-date");

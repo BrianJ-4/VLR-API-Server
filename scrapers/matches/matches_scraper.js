@@ -37,7 +37,7 @@ async function getUpcomingAndLiveMatches(doc) {
                 k += 1;
             });
             if (dates[i].includes("Today")) {
-                dates[i] = dates[i].substring(0, dates[i].indexOf("\n") - 1);
+                dates[i] = dates[i].split("\n")[0].trim();
             }
             upcomingAndLiveMatches[dates[i]] = dateMatches;
             i += 1;

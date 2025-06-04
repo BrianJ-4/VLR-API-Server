@@ -1,0 +1,523 @@
+{
+    "Thu, May 8, 2025": {
+        "0": {
+            "ID": "485374",
+            "Time": "9:00 PM",
+            "TeamA": "EDward Gaming",
+            "TeamB": "FunPlus Phoenix",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "Status": "LIVE",
+            "TeamAScore": "0",
+            "TeamBScore": "0"
+        },
+        "1": {
+            "ID": "485375",
+            "Time": "11:00 PM",
+            "TeamA": "Trace Esports",
+            "TeamB": "Nova Esports",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1h 50m"
+        }
+    },
+    "Fri, May 9, 2025": {
+        "0": {
+            "ID": "473841",
+            "Time": "1:00 AM",
+            "TeamA": "Gen.G",
+            "TeamB": "Rex Regum Qeon",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Upper Final",
+            "Status": "Upcoming",
+            "TimeUntil": "3h 50m"
+        },
+        "1": {
+            "ID": "485376",
+            "Time": "1:00 AM",
+            "TeamA": "Dragon Ranger Gaming",
+            "TeamB": "Titan Esports Club",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "3h 50m"
+        },
+        "2": {
+            "ID": "473842",
+            "Time": "3:00 AM",
+            "TeamA": "DRX",
+            "TeamB": "Paper Rex",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Lower Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "5h 50m"
+        },
+        "3": {
+            "ID": "485377",
+            "Time": "3:00 AM",
+            "TeamA": "Wolves Esports",
+            "TeamB": "TYLOO",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "5h 50m"
+        },
+        "4": {
+            "ID": "482505",
+            "Time": "8:00 AM",
+            "TeamA": "Natus Vincere",
+            "TeamB": "Karmine Corp",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "10h 50m"
+        },
+        "5": {
+            "ID": "482506",
+            "Time": "11:00 AM",
+            "TeamA": "FUT Esports",
+            "TeamB": "Team Vitality",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "13h 50m"
+        },
+        "6": {
+            "ID": "485313",
+            "Time": "2:00 PM",
+            "TeamA": "FlyQuest RED",
+            "TeamB": "Wadadaa",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "16h 50m"
+        },
+        "7": {
+            "ID": "485314",
+            "Time": "2:00 PM",
+            "TeamA": "Ghost Gaming",
+            "TeamB": "Aussie and Friends",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "16h 50m"
+        },
+        "8": {
+            "ID": "485315",
+            "Time": "2:00 PM",
+            "TeamA": "YFP X",
+            "TeamB": "Fisher Fumblers",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "16h 50m"
+        },
+        "9": {
+            "ID": "485316",
+            "Time": "2:00 PM",
+            "TeamA": ":3",
+            "TeamB": "kessoku band",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "16h 50m"
+        },
+        "10": {
+            "ID": "485317",
+            "Time": "4:30 PM",
+            "TeamA": "Teddy Tactics",
+            "TeamB": "Evolution",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "19h 20m"
+        },
+        "11": {
+            "ID": "485318",
+            "Time": "4:30 PM",
+            "TeamA": "Prosperity X",
+            "TeamB": "Hakikimori GC",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "19h 20m"
+        },
+        "12": {
+            "ID": "485319",
+            "Time": "4:30 PM",
+            "TeamA": "Berzerkers Dawn",
+            "TeamB": "Teevee",
+            "Event": "Game Changers 2025 North America: Stage 1",
+            "SubEvent": "Swiss Stage–Round 5",
+            "Status": "Upcoming",
+            "TimeUntil": "19h 20m"
+        }
+    },
+    "Sat, May 10, 2025": {
+        "0": {
+            "ID": "473843",
+            "Time": "1:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Lower Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 3h"
+        },
+        "1": {
+            "ID": "485378",
+            "Time": "2:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 4h"
+        },
+        "2": {
+            "ID": "485379",
+            "Time": "2:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 4h"
+        },
+        "3": {
+            "ID": "482507",
+            "Time": "8:00 AM",
+            "TeamA": "Team Heretics",
+            "TeamB": "BBL Esports",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 10h"
+        },
+        "4": {
+            "ID": "482508",
+            "Time": "11:00 AM",
+            "TeamA": "Team Liquid",
+            "TeamB": "FNATIC",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 13h"
+        }
+    },
+    "Sun, May 11, 2025": {
+        "0": {
+            "ID": "473844",
+            "Time": "1:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Pacific Stage 1",
+            "SubEvent": "Playoffs–Grand Final",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 3h"
+        },
+        "1": {
+            "ID": "485381",
+            "Time": "2:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Consolation Final",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 4h"
+        },
+        "2": {
+            "ID": "482510",
+            "Time": "8:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 10h"
+        },
+        "3": {
+            "ID": "482509",
+            "Time": "11:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 13h"
+        }
+    },
+    "Mon, May 12, 2025": {
+        "0": {
+            "ID": "475213",
+            "Time": "1:00 AM",
+            "TeamA": "SLT Seongnam",
+            "TeamB": "SHERPA",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 3h"
+        },
+        "1": {
+            "ID": "485380",
+            "Time": "2:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "China Evolution Series: Act 2 X Asian Champions League",
+            "SubEvent": "Main Event–Grand Final",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 4h"
+        },
+        "2": {
+            "ID": "475214",
+            "Time": "4:00 AM",
+            "TeamA": "FN Pocheon",
+            "TeamB": "DRX Academy",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 6h"
+        },
+        "3": {
+            "ID": "485446",
+            "Time": "8:00 AM",
+            "TeamA": "TeamOrangeGaming",
+            "TeamB": "XPERION NXT",
+            "Event": "Challengers League 2025 DACH Evolution: Split 2",
+            "SubEvent": "Groups Phase–Relegation",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 10h"
+        },
+        "4": {
+            "ID": "484215",
+            "Time": "9:00 AM",
+            "TeamA": "NOBLES",
+            "TeamB": "VillianArc",
+            "Event": "Challengers League 2025 MENA Resilience: GCC-Pakistan-Iraq Split 1",
+            "SubEvent": "Relegations–Upper Final",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 11h"
+        },
+        "5": {
+            "ID": "484185",
+            "Time": "11:30 AM",
+            "TeamA": "Orgless 2.0",
+            "TeamB": "VoidWalkers",
+            "Event": "Challengers League 2025 MENA Resilience: North Africa and Levant Split 1",
+            "SubEvent": "Relegations–Lower Bracket Final",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 14h"
+        }
+    },
+    "Tue, May 13, 2025": {
+        "0": {
+            "ID": "475215",
+            "Time": "1:00 AM",
+            "TeamA": "Dplus Esports",
+            "TeamB": "FEARX",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 3h"
+        },
+        "1": {
+            "ID": "475216",
+            "Time": "4:00 AM",
+            "TeamA": "Gen.G Global Academy",
+            "TeamB": "T1 Academy",
+            "Event": "WDG Challengers League 2025 Korea: Stage 2",
+            "SubEvent": "Round Robin–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 6h"
+        },
+        "2": {
+            "ID": "484221",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "Yung",
+            "Event": "Challengers League 2025 MENA Resilience: GCC-Pakistan-Iraq Split 1",
+            "SubEvent": "Relegations–Lower Final",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 11h"
+        }
+    },
+    "Wed, May 14, 2025": {
+        "0": {
+            "ID": "481653",
+            "Time": "2:00 AM",
+            "TeamA": "Trace Esports",
+            "TeamB": "ZETA DIVISION",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Lower Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 4h"
+        },
+        "1": {
+            "ID": "481654",
+            "Time": "4:00 AM",
+            "TeamA": "Bilibili Gaming",
+            "TeamB": "TBD",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 6h"
+        },
+        "2": {
+            "ID": "485014",
+            "Time": "10:00 PM",
+            "TeamA": "Team Ninetails",
+            "TeamB": "TBD",
+            "Event": "Game Changers 2025 Korea: Stage 1",
+            "SubEvent": "Playoffs–Grand Final",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 0h"
+        }
+    },
+    "Thu, May 15, 2025": {
+        "0": {
+            "ID": "481651",
+            "Time": "2:00 AM",
+            "TeamA": "Xi Lai Gaming",
+            "TeamB": "TBD",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Upper Final",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 4h"
+        },
+        "1": {
+            "ID": "481655",
+            "Time": "4:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 6h"
+        }
+    },
+    "Fri, May 16, 2025": {
+        "0": {
+            "ID": "481656",
+            "Time": "2:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Lower Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "1": {
+            "ID": "484659",
+            "Time": "2:30 AM",
+            "TeamA": "Asterisk",
+            "TeamB": "Velocity Gaming",
+            "Event": "Challengers League 2025 South Asia: Split 2",
+            "SubEvent": "Main Event–Upper Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "2": {
+            "ID": "481657",
+            "Time": "4:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "HERO ESPORTS ASIAN CHAMPIONS LEAGUE 2025",
+            "SubEvent": "Main Event–Lower Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "3": {
+            "ID": "484660",
+            "Time": "5:30 AM",
+            "TeamA": "Global Esports Academy",
+            "TeamB": "Reckoning Esports",
+            "Event": "Challengers League 2025 South Asia: Split 2",
+            "SubEvent": "Main Event–Upper Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "4": {
+            "ID": "482515",
+            "Time": "8:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Upper Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "5": {
+            "ID": "482511",
+            "Time": "11:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: EMEA Stage 1",
+            "SubEvent": "Playoffs–Lower Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "6": {
+            "ID": "479315",
+            "Time": "1:00 PM",
+            "TeamA": "Team Liquid Brazil",
+            "TeamB": "MIBR GC",
+            "Event": "Game Changers 2025 Brazil: Stage 1",
+            "SubEvent": "Main Stage–Grand Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "7": {
+            "ID": "474078",
+            "Time": "9:00 PM",
+            "TeamA": "RIDDLE ORDER",
+            "TeamB": "QT DIG∞",
+            "Event": "Challengers League 2025 Japan: Split 2",
+            "SubEvent": "Playoffs–Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        }
+    },
+    "Sat, May 17, 2025": {
+        "0": {
+            "ID": "474079",
+            "Time": "12:00 AM",
+            "TeamA": "NOEZ FOXX",
+            "TeamB": "FENNEL",
+            "Event": "Challengers League 2025 Japan: Split 2",
+            "SubEvent": "Playoffs–Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 1d"
+        },
+        "1": {
+            "ID": "484661",
+            "Time": "2:30 AM",
+            "TeamA": "XØ IND",
+            "TeamB": "Revenant XSpark",
+            "Event": "Challengers League 2025 South Asia: Split 2",
+            "SubEvent": "Main Event–Upper Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 1d"
+        },
+        "2": {
+            "ID": "464798",
+            "Time": "4:00 AM",
+            "TeamA": "FULL SENSE",
+            "TeamB": "Motiv Esports",
+            "Event": "Challengers League 2025 Southeast Asia: Split 2",
+            "SubEvent": "Playoffs–Lower Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 1d"
+        },
+        "3": {
+            "ID": "484662",
+            "Time": "5:30 AM",
+            "TeamA": "S8UL Esports",
+            "TeamB": "DOT EXE",
+            "Event": "Challengers League 2025 South Asia: Split 2",
+            "SubEvent": "Main Event–Upper Quarterfinals",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 1d"
+        }
+    }
+}

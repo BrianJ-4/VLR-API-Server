@@ -1,0 +1,135 @@
+{
+    "Details": {
+        "PlayerImage": "/img/base/ph/sil.png",
+        "PlayerName": "Valio",
+        "PlayerRealName": "",
+        "Socials": {},
+        "Nationality": "INTERNATIONAL"
+    },
+    "AgentStats": {
+        "Astra": {
+            "Pick": "50%",
+            "Rounds": "129",
+            "Rating": "0.94",
+            "ACS": "170.3",
+            "KD": "0.84",
+            "ADR": "107.2",
+            "KAST": "65%",
+            "KPR": "0.60",
+            "APR": "0.25",
+            "FKPR": "0.06",
+            "FDPR": "0.05",
+            "Kills": "78",
+            "Deaths": "93",
+            "Assists": "32",
+            "FKs": "8",
+            "FDs": "7"
+        },
+        "Omen": {
+            "Pick": "43%",
+            "Rounds": "117",
+            "Rating": "0.88",
+            "ACS": "151.8",
+            "KD": "0.76",
+            "ADR": "86.1",
+            "KAST": "71%",
+            "KPR": "0.54",
+            "APR": "0.42",
+            "FKPR": "0.03",
+            "FDPR": "0.06",
+            "Kills": "63",
+            "Deaths": "83",
+            "Assists": "49",
+            "FKs": "3",
+            "FDs": "7"
+        },
+        "Viper": {
+            "Pick": "7%",
+            "Rounds": "17",
+            "Rating": "0.86",
+            "ACS": "180.0",
+            "KD": "0.71",
+            "ADR": "109.4",
+            "KAST": "76%",
+            "KPR": "0.59",
+            "APR": "0.18",
+            "FKPR": "0.12",
+            "FDPR": "0.00",
+            "Kills": "10",
+            "Deaths": "14",
+            "Assists": "3",
+            "FKs": "2",
+            "FDs": "0"
+        }
+    },
+    "Results": {
+        "0": {
+            "MatchID": "471939",
+            "EventImage": "//owcdn.net/img/63a1c7a4e584e.png",
+            "EventName": "VCL 25 DACH: Evolution S2",
+            "SubEvent": "Playoffs ⋅ LR1",
+            "TeamAName": "TeamOrangeGaming",
+            "TeamBName": "CGN Esports",
+            "TeamAImage": "//owcdn.net/img/678aa7dadc257.png",
+            "TeamBImage": "//owcdn.net/img/60defafec983c.png",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TeamAWin": false,
+            "Date": "2025/04/20",
+            "Time": "8:00 am"
+        },
+        "1": {
+            "MatchID": "471933",
+            "EventImage": "//owcdn.net/img/63a1c7a4e584e.png",
+            "EventName": "VCL 25 DACH: Evolution S2",
+            "SubEvent": "Playoffs ⋅ UBQF",
+            "TeamAName": "TeamOrangeGaming",
+            "TeamBName": "FOKUS",
+            "TeamAImage": "//owcdn.net/img/678aa7dadc257.png",
+            "TeamBImage": "//owcdn.net/img/627934cd0b505.png",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TeamAWin": false,
+            "Date": "2025/04/12",
+            "Time": "10:20 am"
+        },
+        "2": {
+            "MatchID": "461879",
+            "EventImage": "//owcdn.net/img/63a1c7a4e584e.png",
+            "EventName": "VCL 25 DACH: Evolution S2",
+            "SubEvent": "Groups Phase ⋅ (B)",
+            "TeamAName": "TeamOrangeGaming",
+            "TeamBName": "XPERION NXT",
+            "TeamAImage": "//owcdn.net/img/678aa7dadc257.png",
+            "TeamBImage": "//owcdn.net/img/663b1e3e5e827.png",
+            "TeamAScore": "1",
+            "TeamBScore": "2",
+            "TeamAWin": false,
+            "Date": "2025/04/06",
+            "Time": "8:00 am"
+        },
+        "3": {
+            "MatchID": "461877",
+            "EventImage": "//owcdn.net/img/63a1c7a4e584e.png",
+            "EventName": "VCL 25 DACH: Evolution S2",
+            "SubEvent": "Groups Phase ⋅ (B)",
+            "TeamAName": "TeamOrangeGaming",
+            "TeamBName": "CGN Esports",
+            "TeamAImage": "//owcdn.net/img/678aa7dadc257.png",
+            "TeamBImage": "//owcdn.net/img/60defafec983c.png",
+            "TeamAScore": "0",
+            "TeamBScore": "2",
+            "TeamAWin": false,
+            "Date": "2025/03/30",
+            "Time": "8:00 am"
+        }
+    },
+    "Teams": {
+        "CurrentTeam": {
+            "TeamID": "9042",
+            "TeamImage": "//owcdn.net/img/678aa7dadc257.png",
+            "TeamName": "TeamOrangeGaming",
+            "Note": ""
+        }
+    }
+}

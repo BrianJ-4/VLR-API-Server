@@ -1,0 +1,25 @@
+{
+    "MatchDetails": {
+        "EventID": "2380",
+        "EventName": "Champions Tour 2025: EMEA Stage 1",
+        "SubEvent": "Playoffs: Upper Round 1",
+        "Date": "Thursday, May 8th",
+        "Time": "2025-05-08T14:00:00Z",
+        "TeamA": "FNATIC",
+        "TeamB": "FUT Esports",
+        "TeamAImage": "//owcdn.net/img/62a40cc2b5e29.png",
+        "TeamBImage": "//owcdn.net/img/632be9976b8fe.png",
+        "Status": "0h 4m",
+        "BestOf": 3
+    },
+    "Videos": {
+        "Streams": {
+            "Valorant EMEA": "https://www.twitch.tv/valorant_emea",
+            "Valorant FR": "https://www.twitch.tv/valorant_fr",
+            "Valorant TR": "https://www.twitch.tv/valorant_tur",
+            "Valorant Spain": "https://www.twitch.tv/valorant_es",
+            "VCT EMEA (YT)": "https://www.youtube.com/@VALORANTEsportsEMEA/live"
+        }
+    },
+    "Stats": {}
+}
