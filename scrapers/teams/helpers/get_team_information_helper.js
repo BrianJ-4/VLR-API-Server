@@ -2,7 +2,32 @@ const { getText } = require("../../../utils/scrape_utils");
 const { processMatchCard } = require("../../../utils/match_card_processor");
 
 function getMainHeaderData(mainHeader) {
+    let teamDetails = {};
 
+    // Team image
+    teamDetails.TeamImage = mainHeader.querySelector("img").attributes.src;
+
+    // Team name and tag
+    const teamDetailsSection = mainHeader.querySelector("div.team-header-desc")
+    teamDetails.TeamName = getText(teamDetailsSection.querySelector("h1.wf-title"));
+    teamDetails.TeamTag = getText(teamDetailsSection.querySelector("h2.wf-title.team-header-tag"));
+
+    // Team socials links
+    const socials = teamDetailsSection.querySelectorAll("a");
+    let teamSocials = {};
+    socials.forEach(item => {
+        const socialName = getText(item);
+        const socialLink = item.attributes.href;
+        if (socialName != "") {
+            teamSocials[socialName] = socialLink;
+        }
+    });
+    teamDetails.Socials = teamSocials;
+
+    // Team region
+    teamDetails.Region = getText(teamDetailsSection.querySelector("i.flag").nextSibling);
+
+    return teamDetails
 }
 
 function getTeamMatches(matchesSection) {
