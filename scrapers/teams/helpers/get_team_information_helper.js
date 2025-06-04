@@ -12,6 +12,11 @@ function getMainHeaderData(mainHeader) {
     teamDetails.TeamName = getText(teamDetailsSection.querySelector("h1.wf-title"));
     teamDetails.TeamTag = getText(teamDetailsSection.querySelector("h2.wf-title.team-header-tag"));
 
+    // Team status (for inactive teams)
+    const statusSection = teamDetailsSection.querySelector("span.team-header-status")
+    if (statusSection)
+        teamDetails.Status = getText(statusSection)
+
     // Team socials links
     const socials = teamDetailsSection.querySelectorAll("a");
     let teamSocials = {};
