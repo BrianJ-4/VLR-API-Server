@@ -82,10 +82,6 @@ function getTeamRoster(people) {
     return roster
 }
 
-function getTeamWinnings() {
-
-}
-
 function processRecentResults(recentResultsSection) {
     const recentMatches = {}
     const matches = recentResultsSection.children
@@ -95,4 +91,4 @@ function processRecentResults(recentResultsSection) {
     return recentMatches;
 }
 
-module.exports = { getMainHeaderData, getTeamMatches, getTeamRoster, getTeamWinnings };
+module.exports = { getMainHeaderData, getTeamMatches, getTeamRoster };

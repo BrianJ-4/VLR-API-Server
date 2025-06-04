@@ -1,4 +1,4 @@
-const { getMainHeaderData, getTeamMatches, getTeamRoster, getTeamWinnings } = require("../teams/helpers/get_team_information_helper")
+const { getMainHeaderData, getTeamMatches, getTeamRoster } = require("../teams/helpers/get_team_information_helper")
 
 async function getTeamInformation(doc) {
     let teamInformation = {};
