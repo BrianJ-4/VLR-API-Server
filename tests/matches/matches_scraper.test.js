@@ -9,11 +9,11 @@ describe("getUpcomingAndLiveMatches()", () => {
             htmlFile: "test1.html",
             expectedFile: "test1.json"
         },
-        // {
-        //     name: "set 2",
-        //     htmlFile: "completed-2.html",
-        //     expectedFile: "completed-2.expected.json"
-        // }
+        {
+            name: "List with live matches",
+            htmlFile: "test2.html",
+            expectedFile: "test2.json"
+        }
     ]
     
     test.each(testCases)(
