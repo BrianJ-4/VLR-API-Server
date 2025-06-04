@@ -38,11 +38,11 @@ describe("getMatchInformation()", () => {
             htmlFile: "test2.html",
             expectedFile: "test2.json"
         },
-        // {
-        //     name: "Live Match",
-        //     htmlFile: "test3.html",
-        //     expectedFile: "test3.json"
-        // }
+        {
+            name: "Live Match with TBD Maps",
+            htmlFile: "test3.html",
+            expectedFile: "test3.json"
+        }
     ]
     
     test.each(testCases)(
