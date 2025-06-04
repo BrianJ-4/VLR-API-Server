@@ -147,8 +147,15 @@ function getTeamPlayerStats(tableRows) {
         const stats = player.querySelectorAll("td");
         const playerName = getText(player.querySelector("div.text-of"));
 
+        const imgElement = player.querySelector("img");
+        let agent = "";
+
+        if (imgElement && imgElement.hasAttribute("alt")) {
+            agent = imgElement.getAttribute("alt");
+        }
+
         let playerStats = {
-            Agent: player.querySelector("img").attributes["alt"],
+            Agent: agent,
             Rating: getStatValue(stats[2]),
             ACS: getStatValue(stats[3]),
             Kills: getStatValue(stats[4]),
