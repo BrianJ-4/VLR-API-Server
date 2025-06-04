@@ -1,0 +1,530 @@
+{
+    "Wed, June 4, 2025": {
+        "0": {
+            "ID": "493313",
+            "Time": "1:00 PM",
+            "TeamA": "Los Grandes",
+            "TeamB": "2Game Academy",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "LIVE",
+            "TeamAScore": "1",
+            "TeamBScore": "0"
+        },
+        "1": {
+            "ID": "493314",
+            "Time": "1:00 PM",
+            "TeamA": "RED Canids",
+            "TeamB": "TBK Esports",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "LIVE",
+            "TeamAScore": "0",
+            "TeamBScore": "1"
+        },
+        "2": {
+            "ID": "493315",
+            "Time": "4:00 PM",
+            "TeamA": "Agropesca Jacare",
+            "TeamB": "F4TALITY",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "1h 44m"
+        }
+    },
+    "Thu, June 5, 2025": {
+        "0": {
+            "ID": "493410",
+            "Time": "8:00 AM",
+            "TeamA": "Karmine Corp GC",
+            "TeamB": "SK Nebula",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "17h 44m"
+        },
+        "1": {
+            "ID": "493411",
+            "Time": "8:00 AM",
+            "TeamA": "GIANTX GC",
+            "TeamB": "Zerance Mint",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "17h 44m"
+        },
+        "2": {
+            "ID": "493757",
+            "Time": "9:00 AM",
+            "TeamA": "CGN Esports",
+            "TeamB": "Eintracht Frankfurt",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "18h 44m"
+        },
+        "3": {
+            "ID": "493412",
+            "Time": "11:00 AM",
+            "TeamA": "DVM Miss",
+            "TeamB": "BLVKHVND",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "20h 44m"
+        },
+        "4": {
+            "ID": "493758",
+            "Time": "12:00 PM",
+            "TeamA": "MOUZ",
+            "TeamB": "ALTERNATE aTTaX",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Upper Semifinals",
+            "Status": "Upcoming",
+            "TimeUntil": "21h 44m"
+        },
+        "5": {
+            "ID": "493316",
+            "Time": "1:00 PM",
+            "TeamA": "Stellae Gaming",
+            "TeamB": "FURIA Academy",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "22h 44m"
+        },
+        "6": {
+            "ID": "493317",
+            "Time": "1:00 PM",
+            "TeamA": "Corinthians Esports",
+            "TeamB": "DIRETORIA",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "22h 44m"
+        },
+        "7": {
+            "ID": "493318",
+            "Time": "4:00 PM",
+            "TeamA": "PEEK",
+            "TeamB": "MIBR Academy",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 1h"
+        }
+    },
+    "Fri, June 6, 2025": {
+        "0": {
+            "ID": "493413",
+            "Time": "8:00 AM",
+            "TeamA": "Karmine Corp GC",
+            "TeamB": "GIANTX GC",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 17h"
+        },
+        "1": {
+            "ID": "493414",
+            "Time": "8:00 AM",
+            "TeamA": "HEROIC Valkyries",
+            "TeamB": "DVM Miss",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 17h"
+        },
+        "2": {
+            "ID": "493415",
+            "Time": "11:00 AM",
+            "TeamA": "G2 Gozen",
+            "TeamB": "Zerance Mint",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 20h"
+        },
+        "3": {
+            "ID": "493416",
+            "Time": "11:00 AM",
+            "TeamA": "SK Nebula",
+            "TeamB": "Twisted Minds Orchid",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1d 20h"
+        }
+    },
+    "Sat, June 7, 2025": {
+        "0": {
+            "ID": "490309",
+            "Time": "9:00 AM",
+            "TeamA": "Team Heretics",
+            "TeamB": "Paper Rex",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 18h"
+        },
+        "1": {
+            "ID": "490307",
+            "Time": "12:00 PM",
+            "TeamA": "Bilibili Gaming",
+            "TeamB": "Team Liquid",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "2d 21h"
+        }
+    },
+    "Sun, June 8, 2025": {
+        "0": {
+            "ID": "490308",
+            "Time": "9:00 AM",
+            "TeamA": "Sentinels",
+            "TeamB": "Wolves Esports",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 18h"
+        },
+        "1": {
+            "ID": "490306",
+            "Time": "12:00 PM",
+            "TeamA": "Gen.G",
+            "TeamB": "MIBR",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 1",
+            "Status": "Upcoming",
+            "TimeUntil": "3d 21h"
+        }
+    },
+    "Mon, June 9, 2025": {
+        "0": {
+            "ID": "493417",
+            "Time": "8:00 AM",
+            "TeamA": "Karmine Corp GC",
+            "TeamB": "BLVKHVND",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 17h"
+        },
+        "1": {
+            "ID": "493418",
+            "Time": "8:00 AM",
+            "TeamA": "GIANTX GC",
+            "TeamB": "SK Nebula",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 17h"
+        },
+        "2": {
+            "ID": "490311",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 2 (1-0)",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 18h"
+        },
+        "3": {
+            "ID": "493419",
+            "Time": "11:00 AM",
+            "TeamA": "G2 Gozen",
+            "TeamB": "DVM Miss",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 20h"
+        },
+        "4": {
+            "ID": "493420",
+            "Time": "11:00 AM",
+            "TeamA": "Twisted Minds Orchid",
+            "TeamB": "AlQadsiah Corals",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 20h"
+        },
+        "5": {
+            "ID": "490310",
+            "Time": "12:00 PM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 2 (1-0)",
+            "Status": "Upcoming",
+            "TimeUntil": "4d 21h"
+        }
+    },
+    "Tue, June 10, 2025": {
+        "0": {
+            "ID": "493421",
+            "Time": "8:00 AM",
+            "TeamA": "SK Nebula",
+            "TeamB": "AlQadsiah Corals",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 17h"
+        },
+        "1": {
+            "ID": "493422",
+            "Time": "8:00 AM",
+            "TeamA": "HEROIC Valkyries",
+            "TeamB": "BLVKHVND",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 17h"
+        },
+        "2": {
+            "ID": "490313",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 2 (0-1)",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 18h"
+        },
+        "3": {
+            "ID": "493763",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "Sissi State Punks",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 18h"
+        },
+        "4": {
+            "ID": "493423",
+            "Time": "11:00 AM",
+            "TeamA": "Karmine Corp GC",
+            "TeamB": "DVM Miss",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 20h"
+        },
+        "5": {
+            "ID": "493424",
+            "Time": "11:00 AM",
+            "TeamA": "GIANTX GC",
+            "TeamB": "Twisted Minds Orchid",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 20h"
+        },
+        "6": {
+            "ID": "490312",
+            "Time": "12:00 PM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 2 (0-1)",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 21h"
+        },
+        "7": {
+            "ID": "493764",
+            "Time": "12:00 PM",
+            "TeamA": "TBD",
+            "TeamB": "XPERION NXT",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Lower Round 2",
+            "Status": "Upcoming",
+            "TimeUntil": "5d 21h"
+        }
+    },
+    "Wed, June 11, 2025": {
+        "0": {
+            "ID": "493425",
+            "Time": "8:00 AM",
+            "TeamA": "G2 Gozen",
+            "TeamB": "HEROIC Valkyries",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 17h"
+        },
+        "1": {
+            "ID": "493426",
+            "Time": "8:00 AM",
+            "TeamA": "BLVKHVND",
+            "TeamB": "AlQadsiah Corals",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 17h"
+        },
+        "2": {
+            "ID": "490315",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 3 (1-1)",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 18h"
+        },
+        "3": {
+            "ID": "493427",
+            "Time": "11:00 AM",
+            "TeamA": "Karmine Corp GC",
+            "TeamB": "Zerance Mint",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 20h"
+        },
+        "4": {
+            "ID": "493428",
+            "Time": "11:00 AM",
+            "TeamA": "Twisted Minds Orchid",
+            "TeamB": "DVM Miss",
+            "Event": "Game Changers 2025 EMEA: Stage 2",
+            "SubEvent": "Group Stage–Week 4",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 20h"
+        },
+        "5": {
+            "ID": "490314",
+            "Time": "12:00 PM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "Champions Tour 2025: Masters Toronto",
+            "SubEvent": "Swiss Stage–Round 3 (1-1)",
+            "Status": "Upcoming",
+            "TimeUntil": "6d 21h"
+        }
+    },
+    "Thu, June 12, 2025": {
+        "0": {
+            "ID": "493759",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Upper Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        },
+        "1": {
+            "ID": "493765",
+            "Time": "12:00 PM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Lower Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 0d"
+        }
+    },
+    "Sun, June 15, 2025": {
+        "0": {
+            "ID": "488322",
+            "Time": "9:00 AM",
+            "TeamA": "Team RA'AD",
+            "TeamB": "BAAM Esports",
+            "Event": "Challengers League 2025 MENA Resilience: North Africa and Levant Split 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 3d"
+        },
+        "1": {
+            "ID": "489126",
+            "Time": "9:00 AM",
+            "TeamA": "VillianArc",
+            "TeamB": "AlQadsiah Esports",
+            "Event": "Challengers League 2025 MENA Resilience: GCC-Pakistan-Iraq Split 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 3d"
+        },
+        "2": {
+            "ID": "489312",
+            "Time": "9:00 AM",
+            "TeamA": "Twisted Minds",
+            "TeamB": "Fraggerz",
+            "Event": "Challengers League 2025 MENA Resilience: GCC-Pakistan-Iraq Split 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 3d"
+        },
+        "3": {
+            "ID": "488323",
+            "Time": "11:30 AM",
+            "TeamA": "Gamax Esports",
+            "TeamB": "One More Esports",
+            "Event": "Challengers League 2025 MENA Resilience: North Africa and Levant Split 2",
+            "SubEvent": "Group Stage–Week 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 3d"
+        }
+    },
+    "Tue, June 17, 2025": {
+        "0": {
+            "ID": "493766",
+            "Time": "9:00 AM",
+            "TeamA": "TBD",
+            "TeamB": "TBD",
+            "Event": "A1 eSports Cup #8",
+            "SubEvent": "Playoffs–Lower Final",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 5d"
+        }
+    },
+    "Wed, June 18, 2025": {
+        "0": {
+            "ID": "493321",
+            "Time": "1:00 PM",
+            "TeamA": "RED Canids",
+            "TeamB": "Agropesca Jacare",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 6d"
+        },
+        "1": {
+            "ID": "493322",
+            "Time": "1:00 PM",
+            "TeamA": "2Game Academy",
+            "TeamB": "SAGAZ",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "1w 6d"
+        },
+        "2": {
+            "ID": "493323",
+            "Time": "4:00 PM",
+            "TeamA": "Los Grandes",
+            "TeamB": "TBK Esports",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "2w 0d"
+        }
+    },
+    "Thu, June 19, 2025": {
+        "0": {
+            "ID": "493324",
+            "Time": "1:00 PM",
+            "TeamA": "Corinthians Esports",
+            "TeamB": "PEEK",
+            "Event": "Gamers Club Challengers League 2025 Brazil: Split 2",
+            "SubEvent": "Regular Phase–Round 3",
+            "Status": "Upcoming",
+            "TimeUntil": "2w 0d"
+        }
+    }
+}
