@@ -1,0 +1,162 @@
+{
+    "Details": {
+        "TeamImage": "//owcdn.net/img/627403a0d9e48.png",
+        "TeamName": "Karmine Corp",
+        "TeamTag": "KC",
+        "Socials": {
+            "karminecorp.fr": "https://karminecorp.fr/",
+            "@KarmineCorp": "https://x.com/KarmineCorp",
+            "x.com/KarmineCorpENG": "https://x.com/KarmineCorpENG"
+        },
+        "Region": "Europe"
+    },
+    "Matches": {
+        "UpcomingMatches": {
+            "0": {
+                "MatchID": "594761",
+                "EventImage": "//owcdn.net/img/65ab59620a233.png",
+                "EventName": "VCT 26: EMEA Kickoff",
+                "SubEvent": "LR1",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "FUT Esports",
+                "TeamBImage": "//owcdn.net/img/632be9976b8fe.png",
+                "Status": "Upcoming",
+                "Date": "2026/02/03",
+                "Time": "8:00 am"
+            }
+        },
+        "RecentMatches": {
+            "0": {
+                "MatchID": "594751",
+                "EventImage": "//owcdn.net/img/65ab59620a233.png",
+                "EventName": "VCT 26: EMEA Kickoff",
+                "SubEvent": "MR1",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "Team Liquid",
+                "TeamBImage": "//owcdn.net/img/640c381f0603f.png",
+                "TeamAScore": "1",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2026/01/27",
+                "Time": "8:00 am"
+            },
+            "1": {
+                "MatchID": "594740",
+                "EventImage": "//owcdn.net/img/65ab59620a233.png",
+                "EventName": "VCT 26: EMEA Kickoff",
+                "SubEvent": "UR1",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "Natus Vincere",
+                "TeamBImage": "//owcdn.net/img/62a4109ddbd7f.png",
+                "TeamAScore": "0",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2026/01/20",
+                "Time": "8:00 am"
+            },
+            "2": {
+                "MatchID": "593550",
+                "EventImage": "//owcdn.net/img/68d9310c27a40.png",
+                "EventName": "Project Blender 25",
+                "SubEvent": "Phase 4 ⋅ QF",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "Team Vitality",
+                "TeamBImage": "//owcdn.net/img/6466d79e1ed40.png",
+                "TeamAScore": "1",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/12/12",
+                "Time": "5:00 am"
+            },
+            "3": {
+                "MatchID": "593543",
+                "EventImage": "//owcdn.net/img/68d9310c27a40.png",
+                "EventName": "Project Blender 25",
+                "SubEvent": "Phase 4 ⋅ Ro16",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "3BL Esports",
+                "TeamBImage": "//owcdn.net/img/680345d9b4d89.png",
+                "TeamAScore": "2",
+                "TeamBScore": "0",
+                "TeamAWin": true,
+                "Status": "Completed",
+                "Date": "2025/12/08",
+                "Time": "9:00 am"
+            },
+            "4": {
+                "MatchID": "591448",
+                "EventImage": "//owcdn.net/img/68d9310c27a40.png",
+                "EventName": "Project Blender 25",
+                "SubEvent": "Phase 3 ⋅ R3",
+                "TeamAName": "Karmine Corp",
+                "TeamAImage": "//owcdn.net/img/627403a0d9e48.png",
+                "TeamBName": "trashcan",
+                "TeamBImage": "//owcdn.net/img/64a9f0a39281d.png",
+                "TeamAScore": "2",
+                "TeamBScore": "0",
+                "TeamAWin": true,
+                "Status": "Completed",
+                "Date": "2025/12/04",
+                "Time": "9:00 am"
+            }
+        }
+    },
+    "Roster": {
+        "dos9": {
+            "PlayerID": "16215",
+            "PlayerImage": "//owcdn.net/img/67fe136f21560.png",
+            "PlayerName": "dos9",
+            "PlayerRealName": "Zhumagali Dastan"
+        },
+        "LewN": {
+            "PlayerID": "20144",
+            "PlayerImage": "//owcdn.net/img/680a9297edd81.png",
+            "PlayerName": "LewN",
+            "PlayerRealName": "Burak Alkan"
+        },
+        "sheydos": {
+            "PlayerID": "1428",
+            "PlayerImage": "//owcdn.net/img/65e74c694b17e.png",
+            "PlayerName": "sheydos",
+            "PlayerRealName": "Bogdan Naumov"
+        },
+        "Avez": {
+            "PlayerID": "5654",
+            "PlayerImage": "//owcdn.net/img/63e4aecb51963.png",
+            "PlayerName": "Avez",
+            "PlayerRealName": "Hazem Khaled"
+        },
+        "SUYGETSU": {
+            "PlayerID": "2858",
+            "PlayerImage": "//owcdn.net/img/642eabfbd9478.png",
+            "PlayerName": "SUYGETSU",
+            "PlayerRealName": "Dmitry Ilyushin"
+        },
+        "ENGH": {
+            "PlayerID": "460",
+            "PlayerImage": "//owcdn.net/img/60a0cf472d122.png",
+            "PlayerName": "ENGH",
+            "PlayerRealName": "Andrey Sholokhov",
+            "Note": {
+                "0": "head coach"
+            }
+        },
+        "ZE1SH": {
+            "PlayerID": "302",
+            "PlayerImage": "//owcdn.net/img/645c01ead0e8c.png",
+            "PlayerName": "ZE1SH",
+            "PlayerRealName": "Ahmed El Sheikh",
+            "Note": {
+                "0": "coach"
+            }
+        }
+    }
+}

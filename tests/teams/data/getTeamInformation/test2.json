@@ -1,0 +1,162 @@
+{
+    "Details": {
+        "TeamImage": "//owcdn.net/img/603c00d5c5a08.png",
+        "TeamName": "100 Thieves",
+        "TeamTag": "100T",
+        "Socials": {
+            "100thieves.com": "https://100thieves.com/",
+            "@100T_VAL": "https://x.com/100T_VAL"
+        },
+        "Region": "United States"
+    },
+    "Matches": {
+        "UpcomingMatches": {
+            "0": {
+                "MatchID": "596415",
+                "EventImage": "//owcdn.net/img/640f5ab71dfbb.png",
+                "EventName": "VCT 26: AMER Kickoff",
+                "SubEvent": "MR3",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "TBD",
+                "TeamBImage": "/img/vlr/tmp/vlr.png",
+                "Status": "Upcoming",
+                "Date": "2026/02/01",
+                "Time": "2:00 pm"
+            }
+        },
+        "RecentMatches": {
+            "0": {
+                "MatchID": "596413",
+                "EventImage": "//owcdn.net/img/640f5ab71dfbb.png",
+                "EventName": "VCT 26: AMER Kickoff",
+                "SubEvent": "MR2",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "Sentinels",
+                "TeamBImage": "//owcdn.net/img/62875027c8e06.png",
+                "TeamAScore": "2",
+                "TeamBScore": "0",
+                "TeamAWin": true,
+                "Status": "Completed",
+                "Date": "2026/01/25",
+                "Time": "2:00 pm"
+            },
+            "1": {
+                "MatchID": "596409",
+                "EventImage": "//owcdn.net/img/640f5ab71dfbb.png",
+                "EventName": "VCT 26: AMER Kickoff",
+                "SubEvent": "MR1",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "LOUD",
+                "TeamBImage": "//owcdn.net/img/62bbec8dc1b9f.png",
+                "TeamAScore": "2",
+                "TeamBScore": "1",
+                "TeamAWin": true,
+                "Status": "Completed",
+                "Date": "2026/01/23",
+                "Time": "2:00 pm"
+            },
+            "2": {
+                "MatchID": "596405",
+                "EventImage": "//owcdn.net/img/640f5ab71dfbb.png",
+                "EventName": "VCT 26: AMER Kickoff",
+                "SubEvent": "UR2",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "G2 Esports",
+                "TeamBImage": "//owcdn.net/img/633822848a741.png",
+                "TeamAScore": "1",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2026/01/18",
+                "Time": "4:20 pm"
+            },
+            "3": {
+                "MatchID": "596401",
+                "EventImage": "//owcdn.net/img/640f5ab71dfbb.png",
+                "EventName": "VCT 26: AMER Kickoff",
+                "SubEvent": "UR1",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "LEVIATÁN",
+                "TeamBImage": "//owcdn.net/img/61b8888cc3860.png",
+                "TeamAScore": "2",
+                "TeamBScore": "1",
+                "TeamAWin": true,
+                "Status": "Completed",
+                "Date": "2026/01/16",
+                "Time": "5:05 pm"
+            },
+            "4": {
+                "MatchID": "591986",
+                "EventImage": "//owcdn.net/img/60cedc3d59613.png",
+                "EventName": "SEN Invitational 25",
+                "SubEvent": "SF",
+                "TeamAName": "100 Thieves",
+                "TeamAImage": "//owcdn.net/img/603c00d5c5a08.png",
+                "TeamBName": "Sentinels",
+                "TeamBImage": "//owcdn.net/img/62875027c8e06.png",
+                "TeamAScore": "0",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/12/06",
+                "Time": "2:00 pm"
+            }
+        }
+    },
+    "Roster": {
+        "vora": {
+            "PlayerID": "20140",
+            "PlayerImage": "//owcdn.net/img/69704e204d563.png",
+            "PlayerName": "vora",
+            "PlayerRealName": "Jordan Pulwer",
+            "Note": "IGL"
+        },
+        "Cryocells": {
+            "PlayerID": "4147",
+            "PlayerImage": "//owcdn.net/img/69704e38872a4.png",
+            "PlayerName": "Cryocells",
+            "PlayerRealName": "Matthew Panganiban"
+        },
+        "Asuna": {
+            "PlayerID": "601",
+            "PlayerImage": "//owcdn.net/img/69704e530cfac.png",
+            "PlayerName": "Asuna",
+            "PlayerRealName": "Peter Mazuryk"
+        },
+        "Timotino": {
+            "PlayerID": "29893",
+            "PlayerImage": "//owcdn.net/img/69704e811ce7c.png",
+            "PlayerName": "Timotino",
+            "PlayerRealName": "Timothée Lavigne Dupont"
+        },
+        "bang": {
+            "PlayerID": "3880",
+            "PlayerImage": "//owcdn.net/img/69704e67e3e2b.png",
+            "PlayerName": "bang",
+            "PlayerRealName": "Sean Bezerra"
+        },
+        "Nbs": {
+            "PlayerID": "1622",
+            "PlayerImage": "//owcdn.net/img/613e111eb7fee.png",
+            "PlayerName": "Nbs",
+            "PlayerRealName": "Laurynas Kisielius",
+            "Note": {
+                "0": "head coach"
+            }
+        },
+        "d00mbr0s": {
+            "PlayerID": "452",
+            "PlayerImage": "//owcdn.net/img/642eabe168fd7.png",
+            "PlayerName": "d00mbr0s",
+            "PlayerRealName": "Carl Erik Victor William Sandgren",
+            "Note": {
+                "0": "assistant coach"
+            }
+        }
+    }
+}

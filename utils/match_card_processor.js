@@ -12,12 +12,13 @@ function processMatchCard(match, completed) {
     matchDetails.EventName = getText(eventNameContainer);
     eventNameContainer.remove();
     matchDetails.SubEvent = getText(match.querySelector("div.m-item-event")).replace(/\s+/g, ' ');
-
+    
     // Team info
-    matchDetails.TeamAName = getText(match.querySelectorAll("span.m-item-team-name")[0]);
-    matchDetails.TeamBName = getText(match.querySelectorAll("span.m-item-team-name")[1]);
-    matchDetails.TeamAImage = match.querySelector("div.m-item-logo").querySelector("img").attributes.src;
-    matchDetails.TeamBImage = match.querySelector("div.m-item-logo.mod-right").querySelector("img").attributes.src;
+    const teamNameSpans = match.querySelectorAll("span.m-item-team-name");
+    matchDetails.TeamAName = getText(teamNameSpans[0]);
+    matchDetails.TeamAImage = match.querySelector("div.m-item-logo img").getAttribute("src");
+    matchDetails.TeamBName = teamNameSpans[1] ? getText(teamNameSpans[1]) : "TBD";
+    matchDetails.TeamBImage = match.querySelector("div.m-item-logo.mod-right img").getAttribute("src");
 
     // Score
     const resultContainer = match.querySelector("div.m-item-result");
@@ -33,7 +34,7 @@ function processMatchCard(match, completed) {
     else {
         matchDetails.Status = "Upcoming";
     }
-
+    
     // Date and time
     const dateTimeContainer = match.querySelector("div.m-item-date");
     const dateContainer = dateTimeContainer.querySelector("div");
