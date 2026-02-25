@@ -146,6 +146,7 @@ function getTeamPlayerStats(tableRows) {
     tableRows.forEach(player => {
         const stats = player.querySelectorAll("td");
         const playerName = getText(player.querySelector("div.text-of"));
+        const playerID = stats[0].querySelector("a").attributes.href.split("/")[2];
 
         const imgElement = player.querySelector("img");
         let agent = "";
@@ -155,6 +156,7 @@ function getTeamPlayerStats(tableRows) {
         }
 
         let playerStats = {
+            PlayerID: playerID,
             Agent: agent,
             Rating: getStatValue(stats[2]),
             ACS: getStatValue(stats[3]),
