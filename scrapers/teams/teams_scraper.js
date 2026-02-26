@@ -1,4 +1,5 @@
 const { getMainHeaderData, getTeamMatches, getTeamRoster } = require("../teams/helpers/get_team_information_helper")
+const { processMatchCard } = require("../../utils/match_card_processor");
 
 async function getTeamInformation(doc) {
     let teamInformation = {};
@@ -14,4 +15,17 @@ async function getTeamInformation(doc) {
     }
 }
 
-module.exports = { getTeamInformation };
+async function getTeamCompletedMatches(doc) {
+    let completedMatches = {};
+    try {
+        const matches = doc.querySelector("div.mod-dark").children;
+        for (let i = 0; i < matches.length; i++) // Skips the last element since its something different
+            completedMatches[i] = processMatchCard(matches[i], true);
+        return completedMatches
+    }
+    catch (error) {
+        console.log("Error: " + error);
+    }
+}
+
+module.exports = { getTeamInformation, getTeamCompletedMatches };
