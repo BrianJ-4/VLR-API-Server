@@ -19,7 +19,7 @@ async function getTeamCompletedMatches(doc) {
     let completedMatches = {};
     try {
         const matches = doc.querySelector("div.mod-dark").children;
-        for (let i = 0; i < matches.length; i++) // Skips the last element since its something different
+        for (let i = 0; i < matches.length; i++)
             completedMatches[i] = processMatchCard(matches[i], true);
         return completedMatches
     }
