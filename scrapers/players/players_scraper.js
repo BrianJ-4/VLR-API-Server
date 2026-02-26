@@ -1,4 +1,5 @@
 const { getMainHeaderData, getPlayerAgentStats, getPlayerResults, getPlayerTeams } = require("../players/helpers/get_player_information_helper")
+const { getCompletedMatches } = require("../../utils/completed_matches_processor");
 
 async function getPlayerInformation(doc) {
     let playerInformation = {};
@@ -16,4 +17,13 @@ async function getPlayerInformation(doc) {
     }
 }
 
-module.exports = { getPlayerInformation };
+async function getPlayerCompletedMatches(doc) {
+    try {
+        return getCompletedMatches(doc);
+    }
+    catch (error) {
+        console.log("Error: " + error);
+    }
+}
+
+module.exports = { getPlayerInformation, getPlayerCompletedMatches };

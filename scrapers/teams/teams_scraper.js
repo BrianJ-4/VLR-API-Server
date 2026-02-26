@@ -1,5 +1,5 @@
 const { getMainHeaderData, getTeamMatches, getTeamRoster } = require("../teams/helpers/get_team_information_helper")
-const { processMatchCard } = require("../../utils/match_card_processor");
+const { getCompletedMatches } = require("../../utils/completed_matches_processor");
 
 async function getTeamInformation(doc) {
     let teamInformation = {};
@@ -16,12 +16,8 @@ async function getTeamInformation(doc) {
 }
 
 async function getTeamCompletedMatches(doc) {
-    let completedMatches = {};
     try {
-        const matches = doc.querySelector("div.mod-dark").children;
-        for (let i = 0; i < matches.length; i++)
-            completedMatches[i] = processMatchCard(matches[i], true);
-        return completedMatches
+        return getCompletedMatches(doc);
     }
     catch (error) {
         console.log("Error: " + error);
