@@ -16,25 +16,25 @@ function getEventSectionResults(events) {
 
 function getTeamSectionResults(teams) {
     let teamResults = {}
-    teams.forEach(team => {
+    teams.forEach((team, index) => {
         let teamDetails = {}
         teamDetails.Name = getText(team.querySelector("div.search-item-title")).split(/[\t]/)[0].trim();
         teamDetails.Inactive = team.querySelector("span") !== null;
         teamDetails.ID = team.getAttribute("href").split("/")[4];
         teamDetails.Image = team.querySelector("img").getAttribute("src");
-        teamResults[teamDetails.Name] = teamDetails;
+        teamResults[index] = teamDetails;
     });
     return teamResults
 }
 
 function getSectionResults(results) {
     let sectionResults = {}
-    results.forEach(result => {
+    results.forEach((result, index) => {
         let resultDetails = {}
         resultDetails.Name = getText(result.querySelector("div.search-item-title"));
         resultDetails.ID = result.getAttribute("href").split("/")[4];
         resultDetails.Image = result.querySelector("img").getAttribute("src");
-        sectionResults[resultDetails.Name] = resultDetails;
+        sectionResults[index] = resultDetails;
     });
     return sectionResults;
 }
