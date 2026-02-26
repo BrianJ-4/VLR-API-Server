@@ -38,6 +38,7 @@
             "ctRoundsB": "3",
             "Los Grandes": {
                 "mwzera": {
+                    "PlayerID": "939",
                     "Agent": "fade",
                     "Rating": "1.60",
                     "ACS": "271",
@@ -53,6 +54,7 @@
                     "FkDiff": "0"
                 },
                 "jzz": {
+                    "PlayerID": "13093",
                     "Agent": "raze",
                     "Rating": "1.23",
                     "ACS": "222",
@@ -68,6 +70,7 @@
                     "FkDiff": "+1"
                 },
                 "Quick": {
+                    "PlayerID": "1575",
                     "Agent": "yoru",
                     "Rating": "1.01",
                     "ACS": "211",
@@ -83,6 +86,7 @@
                     "FkDiff": "0"
                 },
                 "GuhRVN": {
+                    "PlayerID": "1581",
                     "Agent": "omen",
                     "Rating": "0.95",
                     "ACS": "200",
@@ -98,6 +102,7 @@
                     "FkDiff": "-6"
                 },
                 "mazin": {
+                    "PlayerID": "8872",
                     "Agent": "viper",
                     "Rating": "0.94",
                     "ACS": "164",
@@ -115,6 +120,7 @@
             },
             "2Game Academy": {
                 "Brinks": {
+                    "PlayerID": "27149",
                     "Agent": "omen",
                     "Rating": "1.13",
                     "ACS": "214",
@@ -130,6 +136,7 @@
                     "FkDiff": "+4"
                 },
                 "GCLeagueOps11": {
+                    "PlayerID": "55118",
                     "Agent": "viper",
                     "Rating": "0.90",
                     "ACS": "186",
@@ -145,6 +152,7 @@
                     "FkDiff": "+2"
                 },
                 "forbanz": {
+                    "PlayerID": "22964",
                     "Agent": "raze",
                     "Rating": "0.81",
                     "ACS": "208",
@@ -160,6 +168,7 @@
                     "FkDiff": "-1"
                 },
                 "lucks": {
+                    "PlayerID": "23832",
                     "Agent": "vyse",
                     "Rating": "0.72",
                     "ACS": "147",
@@ -175,6 +184,7 @@
                     "FkDiff": "-1"
                 },
                 "deNaro": {
+                    "PlayerID": "1684",
                     "Agent": "fade",
                     "Rating": "0.69",
                     "ACS": "137",
@@ -194,6 +204,7 @@
         "All": {
             "Los Grandes": {
                 "mwzera": {
+                    "PlayerID": "939",
                     "Agent": "fade",
                     "Rating": "1.60",
                     "ACS": "271",
@@ -209,6 +220,7 @@
                     "FkDiff": "0"
                 },
                 "jzz": {
+                    "PlayerID": "13093",
                     "Agent": "raze",
                     "Rating": "1.23",
                     "ACS": "222",
@@ -224,6 +236,7 @@
                     "FkDiff": "+1"
                 },
                 "Quick": {
+                    "PlayerID": "1575",
                     "Agent": "yoru",
                     "Rating": "1.01",
                     "ACS": "211",
@@ -239,6 +252,7 @@
                     "FkDiff": "0"
                 },
                 "GuhRVN": {
+                    "PlayerID": "1581",
                     "Agent": "omen",
                     "Rating": "0.95",
                     "ACS": "200",
@@ -254,6 +268,7 @@
                     "FkDiff": "-6"
                 },
                 "mazin": {
+                    "PlayerID": "8872",
                     "Agent": "viper",
                     "Rating": "0.94",
                     "ACS": "164",
@@ -269,6 +284,7 @@
                     "FkDiff": "-1"
                 },
                 "frz": {
+                    "PlayerID": "651",
                     "Agent": "",
                     "Rating": "",
                     "ACS": "",
@@ -286,6 +302,7 @@
             },
             "2Game Academy": {
                 "Brinks": {
+                    "PlayerID": "27149",
                     "Agent": "omen",
                     "Rating": "1.13",
                     "ACS": "214",
@@ -301,6 +318,7 @@
                     "FkDiff": "+4"
                 },
                 "GCLeagueOps11": {
+                    "PlayerID": "55118",
                     "Agent": "viper",
                     "Rating": "0.90",
                     "ACS": "186",
@@ -316,6 +334,7 @@
                     "FkDiff": "+2"
                 },
                 "forbanz": {
+                    "PlayerID": "22964",
                     "Agent": "raze",
                     "Rating": "0.81",
                     "ACS": "208",
@@ -331,6 +350,7 @@
                     "FkDiff": "-1"
                 },
                 "lucks": {
+                    "PlayerID": "23832",
                     "Agent": "vyse",
                     "Rating": "0.72",
                     "ACS": "147",
@@ -346,6 +366,7 @@
                     "FkDiff": "-1"
                 },
                 "deNaro": {
+                    "PlayerID": "1684",
                     "Agent": "fade",
                     "Rating": "0.69",
                     "ACS": "137",
@@ -361,6 +382,7 @@
                     "FkDiff": "+2"
                 },
                 "Askia": {
+                    "PlayerID": "20238",
                     "Agent": "",
                     "Rating": "",
                     "ACS": "",

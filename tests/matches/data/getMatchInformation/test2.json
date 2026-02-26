@@ -66,6 +66,7 @@
             "ctRoundsB": "8",
             "LOUD": {
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "viper",
                     "Rating": "1.06",
                     "ACS": "245",
@@ -81,6 +82,7 @@
                     "FkDiff": "0"
                 },
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "killjoy",
                     "Rating": "1.04",
                     "ACS": "224",
@@ -96,6 +98,7 @@
                     "FkDiff": "+1"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "omen",
                     "Rating": "1.01",
                     "ACS": "165",
@@ -111,6 +114,7 @@
                     "FkDiff": "+2"
                 },
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "skye",
                     "Rating": "0.82",
                     "ACS": "198",
@@ -126,6 +130,7 @@
                     "FkDiff": "+2"
                 },
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "0.51",
                     "ACS": "104",
@@ -143,6 +148,7 @@
             },
             "FNATIC": {
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "sova",
                     "Rating": "1.67",
                     "ACS": "329",
@@ -158,6 +164,7 @@
                     "FkDiff": "-1"
                 },
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "omen",
                     "Rating": "1.18",
                     "ACS": "198",
@@ -173,6 +180,7 @@
                     "FkDiff": "-3"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "kayo",
                     "Rating": "1.16",
                     "ACS": "218",
@@ -188,6 +196,7 @@
                     "FkDiff": "0"
                 },
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "jett",
                     "Rating": "0.90",
                     "ACS": "205",
@@ -203,6 +212,7 @@
                     "FkDiff": "-1"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "killjoy",
                     "Rating": "0.82",
                     "ACS": "158",
@@ -222,6 +232,7 @@
         "All": {
             "LOUD": {
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "killjoy",
                     "Rating": "1.26",
                     "ACS": "245",
@@ -237,6 +248,7 @@
                     "FkDiff": "+8"
                 },
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "0.99",
                     "ACS": "183",
@@ -252,6 +264,7 @@
                     "FkDiff": "-1"
                 },
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "skye",
                     "Rating": "0.90",
                     "ACS": "191",
@@ -267,6 +280,7 @@
                     "FkDiff": "+8"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "omen",
                     "Rating": "0.87",
                     "ACS": "157",
@@ -282,6 +296,7 @@
                     "FkDiff": "+1"
                 },
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "viper",
                     "Rating": "0.80",
                     "ACS": "189",
@@ -299,6 +314,7 @@
             },
             "FNATIC": {
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "sova",
                     "Rating": "1.21",
                     "ACS": "230",
@@ -314,6 +330,7 @@
                     "FkDiff": "-3"
                 },
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "omen",
                     "Rating": "1.04",
                     "ACS": "192",
@@ -329,6 +346,7 @@
                     "FkDiff": "-6"
                 },
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "jett",
                     "Rating": "1.00",
                     "ACS": "242",
@@ -344,6 +362,7 @@
                     "FkDiff": "+5"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "killjoy",
                     "Rating": "0.98",
                     "ACS": "186",
@@ -359,6 +378,7 @@
                     "FkDiff": "0"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "kayo",
                     "Rating": "0.92",
                     "ACS": "195",
@@ -384,6 +404,7 @@
             "ctRoundsB": "7",
             "LOUD": {
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "breach",
                     "Rating": "1.15",
                     "ACS": "228",
@@ -399,6 +420,7 @@
                     "FkDiff": "+1"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "brimstone",
                     "Rating": "0.97",
                     "ACS": "214",
@@ -414,6 +436,7 @@
                     "FkDiff": "+1"
                 },
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "0.93",
                     "ACS": "195",
@@ -429,6 +452,7 @@
                     "FkDiff": "0"
                 },
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "killjoy",
                     "Rating": "0.81",
                     "ACS": "186",
@@ -444,6 +468,7 @@
                     "FkDiff": "0"
                 },
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "raze",
                     "Rating": "0.19",
                     "ACS": "93",
@@ -461,6 +486,7 @@
             },
             "FNATIC": {
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "fade",
                     "Rating": "1.67",
                     "ACS": "317",
@@ -476,6 +502,7 @@
                     "FkDiff": "+2"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "breach",
                     "Rating": "1.07",
                     "ACS": "225",
@@ -491,6 +518,7 @@
                     "FkDiff": "0"
                 },
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "raze",
                     "Rating": "0.97",
                     "ACS": "243",
@@ -506,6 +534,7 @@
                     "FkDiff": "+1"
                 },
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "brimstone",
                     "Rating": "0.97",
                     "ACS": "191",
@@ -521,6 +550,7 @@
                     "FkDiff": "-2"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "killjoy",
                     "Rating": "0.97",
                     "ACS": "163",
@@ -546,6 +576,7 @@
             "ctRoundsB": "5",
             "LOUD": {
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "viper",
                     "Rating": "1.50",
                     "ACS": "285",
@@ -561,6 +592,7 @@
                     "FkDiff": "0"
                 },
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "1.28",
                     "ACS": "216",
@@ -576,6 +608,7 @@
                     "FkDiff": "0"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "astra",
                     "Rating": "1.02",
                     "ACS": "147",
@@ -591,6 +624,7 @@
                     "FkDiff": "-1"
                 },
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "skye",
                     "Rating": "0.75",
                     "ACS": "185",
@@ -606,6 +640,7 @@
                     "FkDiff": "+4"
                 },
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "raze",
                     "Rating": "0.74",
                     "ACS": "165",
@@ -623,6 +658,7 @@
             },
             "FNATIC": {
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "jett",
                     "Rating": "1.06",
                     "ACS": "252",
@@ -638,6 +674,7 @@
                     "FkDiff": "+3"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "cypher",
                     "Rating": "1.04",
                     "ACS": "218",
@@ -653,6 +690,7 @@
                     "FkDiff": "0"
                 },
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "sage",
                     "Rating": "0.99",
                     "ACS": "166",
@@ -668,6 +706,7 @@
                     "FkDiff": "-2"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "raze",
                     "Rating": "0.80",
                     "ACS": "191",
@@ -683,6 +722,7 @@
                     "FkDiff": "+1"
                 },
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "omen",
                     "Rating": "0.79",
                     "ACS": "158",
@@ -708,6 +748,7 @@
             "ctRoundsB": "5",
             "LOUD": {
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "killjoy",
                     "Rating": "1.65",
                     "ACS": "290",
@@ -723,6 +764,7 @@
                     "FkDiff": "+3"
                 },
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "viper",
                     "Rating": "1.07",
                     "ACS": "234",
@@ -738,6 +780,7 @@
                     "FkDiff": "-1"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "harbor",
                     "Rating": "0.91",
                     "ACS": "135",
@@ -753,6 +796,7 @@
                     "FkDiff": "0"
                 },
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "skye",
                     "Rating": "0.80",
                     "ACS": "163",
@@ -768,6 +812,7 @@
                     "FkDiff": "+2"
                 },
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "0.52",
                     "ACS": "109",
@@ -785,6 +830,7 @@
             },
             "FNATIC": {
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "astra",
                     "Rating": "1.29",
                     "ACS": "235",
@@ -800,6 +846,7 @@
                     "FkDiff": "+2"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "killjoy",
                     "Rating": "1.05",
                     "ACS": "188",
@@ -815,6 +862,7 @@
                     "FkDiff": "-2"
                 },
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "fade",
                     "Rating": "0.91",
                     "ACS": "164",
@@ -830,6 +878,7 @@
                     "FkDiff": "-1"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "viper",
                     "Rating": "0.80",
                     "ACS": "161",
@@ -845,6 +894,7 @@
                     "FkDiff": "0"
                 },
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "raze",
                     "Rating": "0.64",
                     "ACS": "174",
@@ -870,6 +920,7 @@
             "ctRoundsB": "3",
             "LOUD": {
                 "aspas": {
+                    "PlayerID": "8480",
                     "Agent": "jett",
                     "Rating": "1.57",
                     "ACS": "292",
@@ -885,6 +936,7 @@
                     "FkDiff": "+2"
                 },
                 "Less": {
+                    "PlayerID": "8447",
                     "Agent": "viper",
                     "Rating": "1.27",
                     "ACS": "242",
@@ -900,6 +952,7 @@
                     "FkDiff": "+4"
                 },
                 "cauanzin": {
+                    "PlayerID": "6193",
                     "Agent": "skye",
                     "Rating": "0.96",
                     "ACS": "183",
@@ -915,6 +968,7 @@
                     "FkDiff": "-1"
                 },
                 "saadhak": {
+                    "PlayerID": "727",
                     "Agent": "killjoy",
                     "Rating": "0.91",
                     "ACS": "207",
@@ -930,6 +984,7 @@
                     "FkDiff": "-4"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "harbor",
                     "Rating": "0.51",
                     "ACS": "124",
@@ -947,6 +1002,7 @@
             },
             "FNATIC": {
                 "Derke": {
+                    "PlayerID": "5022",
                     "Agent": "jett",
                     "Rating": "1.35",
                     "ACS": "336",
@@ -962,6 +1018,7 @@
                     "FkDiff": "+4"
                 },
                 "Alfajer": {
+                    "PlayerID": "9810",
                     "Agent": "killjoy",
                     "Rating": "1.00",
                     "ACS": "203",
@@ -977,6 +1034,7 @@
                     "FkDiff": "-3"
                 },
                 "Boaster": {
+                    "PlayerID": "438",
                     "Agent": "viper",
                     "Rating": "0.99",
                     "ACS": "180",
@@ -992,6 +1050,7 @@
                     "FkDiff": "-1"
                 },
                 "Leo": {
+                    "PlayerID": "1380",
                     "Agent": "sova",
                     "Rating": "0.91",
                     "ACS": "174",
@@ -1007,6 +1066,7 @@
                     "FkDiff": "-1"
                 },
                 "Chronicle": {
+                    "PlayerID": "458",
                     "Agent": "sage",
                     "Rating": "0.80",
                     "ACS": "180",

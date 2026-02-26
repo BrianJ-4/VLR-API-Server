@@ -25,6 +25,7 @@
             "ctRoundsB": "0",
             "100 Thieves": {
                 "Cryocells": {
+                    "PlayerID": "4147",
                     "Agent": "iso",
                     "Rating": "1.94",
                     "ACS": "348",
@@ -40,6 +41,7 @@
                     "FkDiff": "+3"
                 },
                 "eeiu": {
+                    "PlayerID": "796",
                     "Agent": "sova",
                     "Rating": "1.89",
                     "ACS": "326",
@@ -55,6 +57,7 @@
                     "FkDiff": "+2"
                 },
                 "Asuna": {
+                    "PlayerID": "601",
                     "Agent": "neon",
                     "Rating": "0.99",
                     "ACS": "210",
@@ -70,6 +73,7 @@
                     "FkDiff": "0"
                 },
                 "zander": {
+                    "PlayerID": "8082",
                     "Agent": "omen",
                     "Rating": "0.96",
                     "ACS": "158",
@@ -85,6 +89,7 @@
                     "FkDiff": "-2"
                 },
                 "Boostio": {
+                    "PlayerID": "604",
                     "Agent": "cypher",
                     "Rating": "0.58",
                     "ACS": "135",
@@ -102,6 +107,7 @@
             },
             "FURIA": {
                 "heat": {
+                    "PlayerID": "8673",
                     "Agent": "cypher",
                     "Rating": "1.36",
                     "ACS": "237",
@@ -117,6 +123,7 @@
                     "FkDiff": "+1"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "omen",
                     "Rating": "0.96",
                     "ACS": "181",
@@ -132,6 +139,7 @@
                     "FkDiff": "-1"
                 },
                 "Loss": {
+                    "PlayerID": "37105",
                     "Agent": "jett",
                     "Rating": "0.80",
                     "ACS": "236",
@@ -147,6 +155,7 @@
                     "FkDiff": "-2"
                 },
                 "woddy": {
+                    "PlayerID": "3450",
                     "Agent": "breach",
                     "Rating": "0.37",
                     "ACS": "123",
@@ -162,6 +171,7 @@
                     "FkDiff": "0"
                 },
                 "Urango": {
+                    "PlayerID": "6238",
                     "Agent": "tejo",
                     "Rating": "0.21",
                     "ACS": "102",
@@ -181,6 +191,7 @@
         "All": {
             "100 Thieves": {
                 "Cryocells": {
+                    "PlayerID": "4147",
                     "Agent": "iso",
                     "Rating": "1.94",
                     "ACS": "348",
@@ -196,6 +207,7 @@
                     "FkDiff": "+3"
                 },
                 "eeiu": {
+                    "PlayerID": "796",
                     "Agent": "sova",
                     "Rating": "1.89",
                     "ACS": "326",
@@ -211,6 +223,7 @@
                     "FkDiff": "+2"
                 },
                 "Asuna": {
+                    "PlayerID": "601",
                     "Agent": "neon",
                     "Rating": "0.99",
                     "ACS": "210",
@@ -226,6 +239,7 @@
                     "FkDiff": "0"
                 },
                 "zander": {
+                    "PlayerID": "8082",
                     "Agent": "omen",
                     "Rating": "0.96",
                     "ACS": "158",
@@ -241,6 +255,7 @@
                     "FkDiff": "-2"
                 },
                 "Boostio": {
+                    "PlayerID": "604",
                     "Agent": "cypher",
                     "Rating": "0.58",
                     "ACS": "135",
@@ -258,6 +273,7 @@
             },
             "FURIA": {
                 "heat": {
+                    "PlayerID": "8673",
                     "Agent": "cypher",
                     "Rating": "1.36",
                     "ACS": "237",
@@ -273,6 +289,7 @@
                     "FkDiff": "+1"
                 },
                 "tuyz": {
+                    "PlayerID": "2408",
                     "Agent": "omen",
                     "Rating": "0.96",
                     "ACS": "181",
@@ -288,6 +305,7 @@
                     "FkDiff": "-1"
                 },
                 "Loss": {
+                    "PlayerID": "37105",
                     "Agent": "jett",
                     "Rating": "0.80",
                     "ACS": "236",
@@ -303,6 +321,7 @@
                     "FkDiff": "-2"
                 },
                 "woddy": {
+                    "PlayerID": "3450",
                     "Agent": "breach",
                     "Rating": "0.37",
                     "ACS": "123",
@@ -318,6 +337,7 @@
                     "FkDiff": "0"
                 },
                 "Urango": {
+                    "PlayerID": "6238",
                     "Agent": "tejo",
                     "Rating": "0.21",
                     "ACS": "102",
