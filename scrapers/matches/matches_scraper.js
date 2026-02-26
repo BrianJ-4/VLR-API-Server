@@ -79,8 +79,10 @@ async function getCompletedMatches(doc) {
                 };
                 k += 1;
             });
-            let cleanedDate = dates[i].split('\n')[0].trim();
-            completedMatches[cleanedDate] = dateMatches;
+            if (dates[i].includes("Today") || dates[i].includes("Yesterday")) {
+                dates[i] = dates[i].substring(0, dates[i].indexOf("\n") - 1);
+            }
+            completedMatches[dates[i]] = dateMatches;
             i += 1;
         });
         return completedMatches;
