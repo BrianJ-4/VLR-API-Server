@@ -47,6 +47,11 @@ describe("getMatchInformation()", () => {
             name: "Live Match with Six Players on Team",
             htmlFile: "test4.html",
             expectedFile: "test4.json"
+        },
+        {
+            name: "Upcoming Match with TBD Players",
+            htmlFile: "test5.html",
+            expectedFile: "test5.json"
         }
     ]
     

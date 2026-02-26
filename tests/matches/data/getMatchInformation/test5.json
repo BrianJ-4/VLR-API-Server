@@ -1,0 +1,24 @@
+{
+    "MatchDetails": {
+        "EventID": "2830",
+        "EventName": "Challengers 2026: Korea WDG Split 1",
+        "SubEvent": "Group Stage: Week 1",
+        "Date": "Thursday, February 26",
+        "Time": "2026-02-26T03:00:00Z",
+        "TeamA": "Gen.G Global Academy",
+        "TeamB": "ARETE",
+        "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+        "TeamBImage": "//owcdn.net/img/6980ab92813f2.png",
+        "Status": "6h 0m",
+        "BestOf": 3
+    },
+    "Videos": {
+        "Streams": {
+            "VAL Esports KR (YT)": "https://www.youtube.com/@ValorantEsportsKR/live",
+            "VCL KR (YT)": "https://www.youtube.com/@ChallengersKorea/live",
+            "WDG VAL (SOOP)": "https://play.sooplive.co.kr/wdgvalorant",
+            "WDG VCK (CHZZK)": "https://chzzk.naver.com/live/33caa99a4f834c7c112da20c431dbc3a"
+        }
+    },
+    "Stats": {}
+}
