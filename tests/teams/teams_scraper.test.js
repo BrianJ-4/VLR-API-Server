@@ -13,7 +13,12 @@ describe("getTeamInformation()", () => {
             name: "Upcoming match against TBD",
             htmlFile: "test2.html",
             expectedFile: "test2.json"
-        }
+        },
+        {
+            name: "Player without real name",
+            htmlFile: "test3.html",
+            expectedFile: "test3.json"
+        },
     ]
     
     test.each(testCases)(

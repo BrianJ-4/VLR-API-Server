@@ -68,8 +68,8 @@ function getTeamRoster(people) {
         details.PlayerID = person.querySelector("a").attributes.href.split("/")[2]
         details.PlayerImage = person.querySelector("img").attributes.src
         details.PlayerName = getText(person.querySelector("div.team-roster-item-name-alias"))
-        details.PlayerRealName = getText(person.querySelector("div.team-roster-item-name-real"))
-        
+        const realNameElem = person.querySelector("div.team-roster-item-name-real");
+        details.PlayerRealName = realNameElem ? getText(realNameElem) : "";
         if (person.querySelector("i.fa.fa-star"))
             details.Note = "IGL"
 

@@ -1,0 +1,181 @@
+{
+    "Details": {
+        "TeamImage": "//owcdn.net/img/6970c986eddc6.png",
+        "TeamName": "Gen.G Global Academy",
+        "TeamTag": "GGA",
+        "Socials": {
+            "geng.gg": "https://geng.gg/",
+            "@geng_gold": "https://x.com/geng_gold",
+            "x.com/gengacademy": "https://x.com/gengacademy"
+        },
+        "Region": "South Korea"
+    },
+    "Matches": {
+        "UpcomingMatches": {
+            "0": {
+                "MatchID": "626291",
+                "EventImage": "//owcdn.net/img/6964a9e385d88.png",
+                "EventName": "VCL 26: KR Split 1",
+                "SubEvent": "Group Stage ⋅ W1",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "ARETE",
+                "TeamBImage": "//owcdn.net/img/6980ab92813f2.png",
+                "Status": "Upcoming",
+                "Date": "2026/02/26",
+                "Time": "12:00 am"
+            },
+            "1": {
+                "MatchID": "626299",
+                "EventImage": "//owcdn.net/img/6964a9e385d88.png",
+                "EventName": "VCL 26: KR Split 1",
+                "SubEvent": "Group Stage ⋅ W2",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "DRX Academy",
+                "TeamBImage": "//owcdn.net/img/63b17abd77fc0.png",
+                "Status": "Upcoming",
+                "Date": "2026/03/12",
+                "Time": "1:00 am"
+            },
+            "2": {
+                "MatchID": "626304",
+                "EventImage": "//owcdn.net/img/6964a9e385d88.png",
+                "EventName": "VCL 26: KR Split 1",
+                "SubEvent": "Group Stage ⋅ W2",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "ONSIDE GAMING",
+                "TeamBImage": "//owcdn.net/img/6863ccdfabea7.png",
+                "Status": "Upcoming",
+                "Date": "2026/03/13",
+                "Time": "12:00 am"
+            },
+            "3": {
+                "MatchID": "626306",
+                "EventImage": "//owcdn.net/img/6964a9e385d88.png",
+                "EventName": "VCL 26: KR Split 1",
+                "SubEvent": "Group Stage ⋅ W3",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "T1 Academy",
+                "TeamBImage": "//owcdn.net/img/5ea85d21e625f.png",
+                "Status": "Upcoming",
+                "Date": "2026/03/18",
+                "Time": "3:00 am"
+            },
+            "4": {
+                "MatchID": "626310",
+                "EventImage": "//owcdn.net/img/6964a9e385d88.png",
+                "EventName": "VCL 26: KR Split 1",
+                "SubEvent": "Group Stage ⋅ W3",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "FEARX",
+                "TeamBImage": "//owcdn.net/img/65a77a95e73af.png",
+                "Status": "Upcoming",
+                "Date": "2026/03/19",
+                "Time": "10:00 pm"
+            }
+        },
+        "RecentMatches": {
+            "0": {
+                "MatchID": "594003",
+                "EventImage": "//owcdn.net/img/68b706c1b421b.png",
+                "EventName": "PL 2026: Korea",
+                "SubEvent": "QF",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "Korean Creators",
+                "TeamBImage": "/img/vlr/tmp/vlr.png",
+                "TeamAScore": "0",
+                "TeamBScore": "2",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/12/09",
+                "Time": "1:00 am"
+            },
+            "1": {
+                "MatchID": "593631",
+                "EventImage": "//owcdn.net/img/6009f963577f4.png",
+                "EventName": "VCL 25: KR/JP Showdown",
+                "SubEvent": "Korea Qualifier ⋅ RR",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "Dplus Esports",
+                "TeamBImage": "//owcdn.net/img/63bbe4f904433.png",
+                "TeamAScore": "0",
+                "TeamBScore": "1",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/12/01",
+                "Time": "12:40 am"
+            },
+            "2": {
+                "MatchID": "593630",
+                "EventImage": "//owcdn.net/img/6009f963577f4.png",
+                "EventName": "VCL 25: KR/JP Showdown",
+                "SubEvent": "Korea Qualifier ⋅ RR",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "FEARX",
+                "TeamBImage": "//owcdn.net/img/65a77a95e73af.png",
+                "TeamAScore": "0",
+                "TeamBScore": "1",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/11/30",
+                "Time": "11:25 pm"
+            },
+            "3": {
+                "MatchID": "593628",
+                "EventImage": "//owcdn.net/img/6009f963577f4.png",
+                "EventName": "VCL 25: KR/JP Showdown",
+                "SubEvent": "Korea Qualifier ⋅ RR",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "DRX Academy",
+                "TeamBImage": "//owcdn.net/img/63b17abd77fc0.png",
+                "TeamAScore": "0",
+                "TeamBScore": "1",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/11/30",
+                "Time": "10:25 pm"
+            },
+            "4": {
+                "MatchID": "593625",
+                "EventImage": "//owcdn.net/img/6009f963577f4.png",
+                "EventName": "VCL 25: KR/JP Showdown",
+                "SubEvent": "Korea Qualifier ⋅ RR",
+                "TeamAName": "Gen.G Global Academy",
+                "TeamAImage": "//owcdn.net/img/6970c986eddc6.png",
+                "TeamBName": "ONSIDE GAMING",
+                "TeamBImage": "//owcdn.net/img/6863ccdfabea7.png",
+                "TeamAScore": "0",
+                "TeamBScore": "1",
+                "TeamAWin": false,
+                "Status": "Completed",
+                "Date": "2025/11/30",
+                "Time": "9:00 pm"
+            }
+        }
+    },
+    "Roster": {
+        "Raxcal": {
+            "PlayerID": "48925",
+            "PlayerImage": "//owcdn.net/img/688488102c9bb.png",
+            "PlayerName": "Raxcal",
+            "PlayerRealName": ""
+        },
+        "Xpp": {
+            "PlayerID": "4048",
+            "PlayerImage": "/img/base/ph/sil.png",
+            "PlayerName": "Xpp",
+            "PlayerRealName": "Yoon Jong-sung",
+            "Note": {
+                "0": "head coach"
+            }
+        }
+    }
+}
