@@ -9,12 +9,22 @@ const router = express.Router();
 // Get player data by ID
 router.get("/:playerID", async (req, res) => {
     const playerID = parseInt(req.params.playerID);
-    const key = `/players/${playerID}` // Key for cache
+    const timespan = req.query.timespan || "all";
+
+    const allowedTimespans = ["30", "60", "90", "all"];
+    if (!allowedTimespans.includes(timespan.toString())) {
+        return res.status(400).json({ 
+            error: "Invalid timespan. Please use 30, 60, 90, or all." 
+        });
+    }
+    const suffix = timespan === "all" ? "all" : `${timespan}d`;
+    
+    const key = `/players/${playerID}?timespan=${timespan}` // Key for cache
     const cacheData = checkCache(key);
     if (cacheData)
         return res.status(200).json(cacheData);
     try {
-        const playerInformation = await fetchAndParse(`/player/${playerID}/?timespan=all`, getPlayerInformation)
+        const playerInformation = await fetchAndParse(`/player/${playerID}/?timespan=${suffix}`, getPlayerInformation)
         setCache(key, playerInformation, 600) // Cache player information for 10 minutes
         res.status(200).json(playerInformation);
     }
