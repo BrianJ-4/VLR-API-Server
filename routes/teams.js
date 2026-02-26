@@ -23,6 +23,7 @@ router.get("/:teamID", async (req, res) => {
     }
 });
 
+// Get team completed matches
 router.get("/:teamID/completed/:page", async (req, res) => {
     const teamID = parseInt(req.params.teamID);
     const page = parseInt(req.params.page);
